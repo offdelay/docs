@@ -1,0 +1,68 @@
+# Zensical project configuration — see https://zensical.org/docs/setup/basics/
+
+[project]
+# The only strictly required setting.
+site_name = "Offdelay Docs"
+
+# Canonical URL (also the custom domain for GitHub Pages).
+site_url = "https://docs.offdelay.be"
+site_description = "Offdelay documentation"
+site_author = "Offdelay"
+copyright = "&copy; 2026 Offdelay"
+
+# Source and output directories (relative to this file).
+docs_dir = "docs"
+site_dir = "site"
+
+# Git repository — powers the GitHub badge and the "Edit this page" action.
+repo_url = "https://github.com/offdelay/docs"
+repo_name = "offdelay/docs"
+edit_uri = "edit/main/docs/"
+
+# Top-level navigation — rendered as header tabs (see navigation.tabs below).
+nav = [
+  { "Home"        = "index.md" },
+  { "Get started" = [
+      "get-started/index.md",
+      "get-started/installation.md",
+  ] },
+  { "Modules" = [
+      "modules/index.md",
+      { "Energy"   = ["modules/energy/index.md"] },
+      { "Lighting" = ["modules/lighting/index.md"] },
+  ] },
+  { "Setup" = ["setup/index.md"] },
+]
+
+[project.theme]
+# Feature flags: https://zensical.org/docs/setup/navigation/
+features = [
+  "navigation.tabs",          # top-level nav becomes header tabs
+  "navigation.tabs.sticky",   # tabs stay visible on scroll
+  "navigation.sections",      # 2nd-level nav (Energy, Lighting) as sidebar groups
+  "navigation.indexes",       # section index pages carry the section icons
+  "navigation.instant",       # SPA-style navigation
+  "navigation.instant.prefetch",
+  "navigation.instant.progress",
+  "navigation.tracking",      # URL follows the active anchor
+  "navigation.top",           # back-to-top button
+  "toc.follow",               # right sidebar tracks the active anchor
+  "search.highlight",         # highlight matches after following a search result
+  "content.action.edit",      # "Edit this page" button
+]
+
+[project.theme.icon]
+repo = "fontawesome/brands/github"
+
+# Light / dark mode toggle (follows the OS preference by default).
+[[project.theme.palette]]
+media = "(prefers-color-scheme: light)"
+scheme = "default"
+toggle.icon = "lucide/sun"
+toggle.name = "Switch to dark mode"
+
+[[project.theme.palette]]
+media = "(prefers-color-scheme: dark)"
+scheme = "slate"
+toggle.icon = "lucide/moon"
+toggle.name = "Switch to light mode"

@@ -1,0 +1,7 @@
+# Generated documentation
+/site/
+
+# Editor and operating-system files
+.DS_Store
+*.swp
+*~

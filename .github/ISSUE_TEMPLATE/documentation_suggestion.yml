@@ -1,0 +1,39 @@
+name: Documentation improvement
+description: Suggest a correction, clarification, or new documentation.
+title: "[Docs]: "
+labels:
+  - documentation
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Tell us what documentation would be more useful and why.
+  - type: input
+    id: page
+    attributes:
+      label: Page or topic
+      description: Link to the relevant page or describe the topic to add.
+      placeholder: https://docs.offdelay.be/...
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Suggested improvement
+      description: Describe what should be added, corrected, or clarified.
+    validations:
+      required: true
+  - type: textarea
+    id: rationale
+    attributes:
+      label: Why is this helpful?
+      description: Explain the reader's question or problem this would address.
+    validations:
+      required: true
+  - type: textarea
+    id: contribution
+    attributes:
+      label: Possible contribution
+      description: Add draft wording or links to useful references, if available.
+    validations:
+      required: false

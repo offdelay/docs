@@ -1,0 +1,57 @@
+name: Bug report
+description: Report a problem with the documentation site or its content.
+title: "[Bug]: "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Describe the problem clearly so we can reproduce and investigate it.
+  - type: input
+    id: page
+    attributes:
+      label: Affected page
+      description: Link to the published page or source file, if known.
+      placeholder: https://docs.offdelay.be/...
+    validations:
+      required: true
+  - type: textarea
+    id: issue
+    attributes:
+      label: What happened?
+      description: Explain what is incorrect, broken, or confusing.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect?
+      description: Describe the correct behavior or information.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to reproduce
+      description: Include the steps that led to the problem.
+      placeholder: |
+        1. Open ...
+        2. Follow ...
+        3. Observe ...
+    validations:
+      required: false
+  - type: input
+    id: browser
+    attributes:
+      label: Browser and version
+      description: Include this if the problem is specific to a browser.
+    validations:
+      required: false
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional context
+      description: Add screenshots or other details that may help.
+    validations:
+      required: false
