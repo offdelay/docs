@@ -1,11 +1,9 @@
 # Offdelay Docs
 
-Welcome to the Offdelay documentation. This site is built with
-[Zensical](https://zensical.org) and deployed to GitHub Pages at
-[docs.offdelay.be](https://docs.offdelay.be).
+Welcome to the Offdelay documentation.
 
 ## Explore
 
-- [Get started](get-started/index.md) — installation and first steps
-- [Modules](modules/index.md) — Energy and Lighting modules
-- [Setup](setup/index.md) — configuration and deployment
+- [Get started](get-started/index.md) — learn about Offdelay, connect to Home Assistant, and explore its interface
+- [Basic setup](setup/index.md) — install and configure the foundations for an Offdelay setup
+- [Modules](modules/index.md) — explore Energy, Lighting, Heating and cooling, Screens, and Alarm systems

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="420" viewBox="0 0 1040 420" role="img" aria-labelledby="title description">
+  <title id="title">Open Home Assistant in a browser</title>
+  <desc id="description">Browser windows on macOS and Windows show a Home Assistant address and a simple sign-in form.</desc>
+  <rect x="1" y="1" width="518" height="418" rx="18" fill="#f8fafc" stroke="#64748b" stroke-width="2"/>
+  <text x="34" y="46" fill="#172033" font-family="Arial, sans-serif" font-size="23" font-weight="700">Browser sign-in</text>
+
+  <rect x="34" y="72" width="474" height="316" rx="14" fill="#ffffff" stroke="#94a3b8" stroke-width="2"/>
+  <rect x="34" y="72" width="474" height="42" rx="14" fill="#e2e8f0"/>
+  <circle cx="56" cy="93" r="5" fill="#ef4444"/>
+  <circle cx="74" cy="93" r="5" fill="#f59e0b"/>
+  <circle cx="92" cy="93" r="5" fill="#22c55e"/>
+  <rect x="138" y="82" width="342" height="23" rx="8" fill="#ffffff" stroke="#cbd5e1"/>
+  <text x="153" y="98" fill="#475569" font-family="monospace" font-size="12">&lt;subdomain&gt;.offdelay.be</text>
+  <rect x="54" y="132" width="434" height="236" rx="10" fill="#f8fafc" stroke="#cbd5e1"/>
+  <rect x="54" y="132" width="434" height="44" rx="10" fill="#dbeafe"/>
+  <circle cx="80" cy="154" r="12" fill="#2563eb"/>
+  <path d="M74 154h12M80 148v12" stroke="#ffffff" stroke-width="2"/>
+  <text x="103" y="160" fill="#172033" font-family="Arial, sans-serif" font-size="17" font-weight="700">Home Assistant</text>
+  <text x="93" y="208" fill="#172033" font-family="Arial, sans-serif" font-size="16" font-weight="700">Welcome home</text>
+  <text x="93" y="232" fill="#475569" font-family="Arial, sans-serif" font-size="12">Sign in with your Home Assistant credentials.</text>
+  <rect x="93" y="249" width="356" height="36" rx="6" fill="#ffffff" stroke="#94a3b8"/>
+  <text x="107" y="272" fill="#64748b" font-family="Arial, sans-serif" font-size="12">Username</text>
+  <rect x="93" y="294" width="356" height="36" rx="6" fill="#ffffff" stroke="#94a3b8"/>
+  <text x="107" y="317" fill="#64748b" font-family="Arial, sans-serif" font-size="12">Password</text>
+  <rect x="93" y="340" width="94" height="24" rx="6" fill="#2563eb"/>
+  <text x="117" y="357" fill="#ffffff" font-family="Arial, sans-serif" font-size="12" font-weight="700">Sign in</text>
+</svg>

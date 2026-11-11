@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="720" viewBox="0 0 760 720" role="img" aria-labelledby="title description">
+  <title id="title">Room controls wireframe</title>
+  <desc id="description">A room device view with lighting presets, light brightness controls, and a thermostat.</desc>
+  <rect x="1" y="1" width="758" height="718" rx="20" fill="#111318" stroke="#42454d" stroke-width="2"/>
+  <circle cx="42" cy="42" r="25" fill="#25272d"/>
+  <text x="42" y="50" text-anchor="middle" fill="#e5e7eb" font-family="Arial, sans-serif" font-size="28">‹</text>
+  <rect x="246" y="18" width="144" height="48" rx="24" fill="#25272d"/>
+  <text x="318" y="48" text-anchor="middle" fill="#f3f4f6" font-family="Arial, sans-serif" font-size="16" font-weight="700">Living room</text>
+  <rect x="400" y="18" width="128" height="48" rx="24" fill="#25272d"/>
+  <text x="464" y="48" text-anchor="middle" fill="#f3f4f6" font-family="Arial, sans-serif" font-size="16">21.0 °C</text>
+  <circle cx="708" cy="42" r="25" fill="#25272d"/>
+  <text x="708" y="50" text-anchor="middle" fill="#e5e7eb" font-family="Arial, sans-serif" font-size="23">⚙</text>
+  <text x="34" y="133" fill="#b9bbc2" font-family="Arial, sans-serif" font-size="20">Devices</text>
+  <rect x="16" y="156" width="174" height="110" rx="26" fill="#25272d"/>
+  <circle cx="103" cy="194" r="25" fill="#383a40"/>
+  <text x="103" y="203" text-anchor="middle" fill="#a5a7ad" font-family="Arial, sans-serif" font-size="24">◉</text>
+  <text x="103" y="244" text-anchor="middle" fill="#f3f4f6" font-family="Arial, sans-serif" font-size="17" font-weight="700">Default</text>
+  <rect x="198" y="156" width="174" height="110" rx="26" fill="#25272d"/>
+  <circle cx="285" cy="194" r="25" fill="#383a40"/>
+  <text x="285" y="203" text-anchor="middle" fill="#a5a7ad" font-family="Arial, sans-serif" font-size="24">◉</text>
+  <text x="285" y="244" text-anchor="middle" fill="#f3f4f6" font-family="Arial, sans-serif" font-size="17" font-weight="700">Off</text>
+  <rect x="380" y="156" width="174" height="110" rx="26" fill="#25272d"/>
+  <circle cx="467" cy="194" r="25" fill="#383a40"/>
+  <text x="467" y="203" text-anchor="middle" fill="#a5a7ad" font-family="Arial, sans-serif" font-size="24">◉</text>
+  <text x="467" y="244" text-anchor="middle" fill="#f3f4f6" font-family="Arial, sans-serif" font-size="17" font-weight="700">Bright</text>
+  <rect x="562" y="156" width="182" height="110" rx="26" fill="#25272d"/>
+  <circle cx="653" cy="194" r="25" fill="#383a40"/>
+  <text x="653" y="203" text-anchor="middle" fill="#a5a7ad" font-family="Arial, sans-serif" font-size="24">◉</text>
+  <text x="653" y="244" text-anchor="middle" fill="#f3f4f6" font-family="Arial, sans-serif" font-size="17" font-weight="700">Dim</text>
+
+  <rect x="16" y="278" width="728" height="126" rx="26" fill="#25272d"/>
+  <circle cx="58" cy="318" r="25" fill="#614630"/>
+  <text x="58" y="327" text-anchor="middle" fill="#ffad5c" font-family="Arial, sans-serif" font-size="26">●</text>
+  <text x="99" y="314" fill="#f3f4f6" font-family="Arial, sans-serif" font-size="18" font-weight="700">Ceiling light</text>
+  <text x="99" y="338" fill="#d1d5db" font-family="Arial, sans-serif" font-size="15">80% brightness</text>
+  <rect x="32" y="356" width="656" height="32" rx="16" fill="#574439"/>
+  <rect x="32" y="356" width="520" height="32" rx="16" fill="#ffad5c"/>
+  <circle cx="716" cy="372" r="18" fill="#303238"/>
+  <text x="716" y="379" text-anchor="middle" fill="#e5e7eb" font-family="Arial, sans-serif" font-size="18">♨</text>
+
+  <rect x="16" y="416" width="728" height="126" rx="26" fill="#25272d"/>
+  <circle cx="58" cy="456" r="25" fill="#614630"/>
+  <text x="58" y="465" text-anchor="middle" fill="#ffad5c" font-family="Arial, sans-serif" font-size="26">●</text>
+  <text x="99" y="452" fill="#f3f4f6" font-family="Arial, sans-serif" font-size="18" font-weight="700">Kitchen lights</text>
+  <text x="99" y="476" fill="#d1d5db" font-family="Arial, sans-serif" font-size="15">80% brightness</text>
+  <rect x="32" y="494" width="656" height="32" rx="16" fill="#574439"/>
+  <rect x="32" y="494" width="520" height="32" rx="16" fill="#ffad5c"/>
+  <circle cx="716" cy="510" r="18" fill="#303238"/>
+  <text x="716" y="517" text-anchor="middle" fill="#e5e7eb" font-family="Arial, sans-serif" font-size="18">♨</text>
+
+  <rect x="16" y="554" width="728" height="148" rx="26" fill="#25272d"/>
+  <circle cx="58" cy="594" r="25" fill="#3a3b40"/>
+  <text x="58" y="603" text-anchor="middle" fill="#96989e" font-family="Arial, sans-serif" font-size="24">◌</text>
+  <text x="99" y="590" fill="#f3f4f6" font-family="Arial, sans-serif" font-size="18" font-weight="700">Thermostat</text>
+  <text x="99" y="614" fill="#d1d5db" font-family="Arial, sans-serif" font-size="15">21 °C · Heat</text>
+  <rect x="32" y="638" width="696" height="48" rx="16" fill="#303238"/>
+  <text x="64" y="669" fill="#e5e7eb" font-family="Arial, sans-serif" font-size="20">−</text>
+  <text x="380" y="669" text-anchor="middle" fill="#f3f4f6" font-family="Arial, sans-serif" font-size="17" font-weight="700">21.0 °C</text>
+  <text x="696" y="669" text-anchor="middle" fill="#e5e7eb" font-family="Arial, sans-serif" font-size="20">+</text>
+</svg>

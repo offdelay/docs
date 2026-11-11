@@ -1,0 +1,959 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="1120"
+   height="700"
+   viewBox="0 0 1120 700"
+   role="img"
+   aria-labelledby="title description"
+   version="1.1"
+   id="svg75"
+   sodipodi:docname="navigation-overview.svg"
+   inkscape:version="1.4.2 (f4327f4, 2025-05-13)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs75" />
+  <sodipodi:namedview
+     id="namedview75"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="1.7328571"
+     inkscape:cx="559.76918"
+     inkscape:cy="303.83348"
+     inkscape:window-width="3840"
+     inkscape:window-height="2054"
+     inkscape:window-x="-11"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg75" />
+  <title
+     id="title">Annotated Home Assistant Overview wireframe</title>
+  <desc
+     id="description">A dark Home Assistant-style dashboard with yellow outlines and labels for the sidebar, settings, headers, cogwheel, room card, and shortcuts.</desc>
+  <rect
+     x="1"
+     y="1"
+     width="1118"
+     height="698"
+     rx="18"
+     fill="#111318"
+     stroke="#64748b"
+     stroke-width="2"
+     id="rect1" />
+  <rect
+     x="2"
+     y="2"
+     width="290"
+     height="696"
+     rx="16"
+     fill="#17191e"
+     id="rect2" />
+  <rect
+     x="2"
+     y="2"
+     width="290"
+     height="58"
+     rx="16"
+     fill="#111318"
+     id="rect3" />
+  <path
+     d="M 22,42 H 40 M 22,48 H 40 M 22,54 H 40"
+     stroke="#9ca3af"
+     stroke-width="2"
+     id="path3"
+     sodipodi:nodetypes="cccccc" />
+  <text
+     x="54"
+     y="56"
+     fill="#f8fafc"
+     font-family="Arial, sans-serif"
+     font-size="20px"
+     font-weight="700"
+     id="text3">Home Assistant</text>
+  <rect
+     x="16"
+     y="72"
+     width="260"
+     height="44"
+     rx="8"
+     fill="#303238"
+     id="rect4" />
+  <rect
+     x="29"
+     y="85"
+     width="17"
+     height="17"
+     rx="3"
+     fill="#a1a1aa"
+     id="rect5" />
+  <text
+     x="59"
+     y="101"
+     fill="#f8fafc"
+     font-family="Arial, sans-serif"
+     font-size="15"
+     font-weight="700"
+     id="text5">Overview</text>
+  <text
+     x="31"
+     y="151"
+     fill="#a1a1aa"
+     font-family="Arial, sans-serif"
+     font-size="16"
+     id="text6">◈</text>
+  <text
+     x="59"
+     y="151"
+     fill="#c4c6cc"
+     font-family="Arial, sans-serif"
+     font-size="15"
+     id="text7">Map</text>
+  <text
+     x="31"
+     y="195"
+     fill="#a1a1aa"
+     font-family="Arial, sans-serif"
+     font-size="18"
+     id="text8">ϟ</text>
+  <text
+     x="59"
+     y="195"
+     fill="#c4c6cc"
+     font-family="Arial, sans-serif"
+     font-size="15"
+     id="text9">Energy</text>
+  <text
+     x="31"
+     y="239"
+     fill="#a1a1aa"
+     font-family="Arial, sans-serif"
+     font-size="16"
+     id="text10">☷</text>
+  <text
+     x="59"
+     y="239"
+     fill="#c4c6cc"
+     font-family="Arial, sans-serif"
+     font-size="15"
+     id="text11">Activity</text>
+  <text
+     x="31"
+     y="283"
+     fill="#a1a1aa"
+     font-family="Arial, sans-serif"
+     font-size="16"
+     id="text12">▥</text>
+  <text
+     x="59"
+     y="283"
+     fill="#c4c6cc"
+     font-family="Arial, sans-serif"
+     font-size="15"
+     id="text13">History</text>
+  <text
+     x="31"
+     y="327"
+     fill="#a1a1aa"
+     font-family="Arial, sans-serif"
+     font-size="16"
+     id="text14">⬟</text>
+  <text
+     x="59"
+     y="327"
+     fill="#c4c6cc"
+     font-family="Arial, sans-serif"
+     font-size="15"
+     id="text15">Alarmo</text>
+  <text
+     x="31"
+     y="371"
+     fill="#a1a1aa"
+     font-family="Arial, sans-serif"
+     font-size="16"
+     id="text16">▣</text>
+  <text
+     x="59"
+     y="371"
+     fill="#c4c6cc"
+     font-family="Arial, sans-serif"
+     font-size="15"
+     id="text17">Calendar</text>
+  <text
+     x="31"
+     y="409"
+     fill="#a1a1aa"
+     font-family="Arial, sans-serif"
+     font-size="16px"
+     id="text20">▣</text>
+  <text
+     x="59"
+     y="409"
+     fill="#c4c6cc"
+     font-family="Arial, sans-serif"
+     font-size="15px"
+     id="text21">Media</text>
+  <text
+     x="31"
+     y="453"
+     fill="#a1a1aa"
+     font-family="Arial, sans-serif"
+     font-size="16px"
+     id="text22">◇</text>
+  <text
+     x="59"
+     y="453"
+     fill="#c4c6cc"
+     font-family="Arial, sans-serif"
+     font-size="15px"
+     id="text23">Zigbee2MQTT</text>
+  <line
+     x1="20"
+     y1="610"
+     x2="274"
+     y2="610"
+     stroke="#34363d"
+     id="line23" />
+  <text
+     x="31"
+     y="645"
+     fill="#a1a1aa"
+     font-family="Arial, sans-serif"
+     font-size="19"
+     id="text24">⚙</text>
+  <text
+     x="59"
+     y="645"
+     fill="#c4c6cc"
+     font-family="Arial, sans-serif"
+     font-size="15"
+     id="text25">Settings</text>
+  <circle
+     cx="238"
+     cy="639"
+     r="12"
+     fill="#e49a25"
+     id="circle25" />
+  <text
+     x="238"
+     y="644"
+     text-anchor="middle"
+     fill="#ffffff"
+     font-family="Arial, sans-serif"
+     font-size="12"
+     font-weight="700"
+     id="text26">4</text>
+  <text
+     x="31"
+     y="682"
+     fill="#a1a1aa"
+     font-family="Arial, sans-serif"
+     font-size="18"
+     id="text27">♟</text>
+  <text
+     x="59"
+     y="682"
+     fill="#c4c6cc"
+     font-family="Arial, sans-serif"
+     font-size="15"
+     id="text28">Notifications</text>
+  <rect
+     x="582"
+     y="12"
+     width="146"
+     height="38"
+     rx="18"
+     fill="#2b2d33"
+     id="rect28" />
+  <text
+     x="598"
+     y="36"
+     fill="#e5e7eb"
+     font-family="Arial, sans-serif"
+     font-size="13px"
+     id="text29">☁ Rainy · 6.1 °C</text>
+  <circle
+     cx="761"
+     cy="31"
+     r="19"
+     fill="#2b2d33"
+     id="circle29" />
+  <text
+     x="760.23376"
+     y="39"
+     text-anchor="middle"
+     fill="#e5e7eb"
+     font-family="Arial, sans-serif"
+     font-size="31.3505px"
+     id="text30"
+     style="stroke-width:1.84414">⌂</text>
+  <rect
+     x="1034"
+     y="11"
+     width="44"
+     height="40"
+     rx="12"
+     fill="#2b2d33"
+     id="rect31" />
+  <rect
+     x="305.61255"
+     y="5.687552"
+     width="44"
+     height="40"
+     rx="12"
+     fill="#2b2d33"
+     id="rect31-7" />
+  <text
+     x="1056.902"
+     y="43.648285"
+     text-anchor="middle"
+     fill="#e5e7eb"
+     font-family="Arial, sans-serif"
+     font-size="34.2794px"
+     id="text32"
+     style="stroke-width:1.63235">⚙</text>
+  <rect
+     x="310"
+     y="98"
+     width="180"
+     height="96"
+     rx="22"
+     fill="#25272d"
+     id="rect32" />
+  <circle
+     cx="398.35031"
+     cy="130.42816"
+     r="28.565746"
+     fill="#4a4126"
+     id="circle32"
+     style="stroke-width:1.29844" />
+  <text
+     x="398.35031"
+     y="140.81555"
+     text-anchor="middle"
+     fill="#f4c542"
+     font-family="Arial, sans-serif"
+     font-size="32.4613px"
+     font-weight="700"
+     id="text33"
+     style="stroke-width:1.29844">ϟ</text>
+  <text
+     x="398.35031"
+     y="186.2612"
+     text-anchor="middle"
+     fill="#f8fafc"
+     font-family="Arial, sans-serif"
+     font-size="19.4769px"
+     id="text34"
+     style="stroke-width:1.29844">Energy</text>
+  <rect
+     x="500"
+     y="98"
+     width="180"
+     height="96"
+     rx="22"
+     fill="#25272d"
+     id="rect34" />
+  <circle
+     cx="588.67017"
+     cy="129.60437"
+     r="27.986677"
+     fill="#293d5d"
+     id="circle34"
+     style="stroke-width:1.27212" />
+  <text
+     x="588.67017"
+     y="139.78133"
+     text-anchor="middle"
+     fill="#60a5fa"
+     font-family="Arial, sans-serif"
+     font-size="29.2589px"
+     id="text35"
+     style="stroke-width:1.27212">☁</text>
+  <text
+     x="588.67017"
+     y="187.39407"
+     text-anchor="middle"
+     fill="#f8fafc"
+     font-family="Arial, sans-serif"
+     font-size="19.0818px"
+     id="text36"
+     style="stroke-width:1.27212">Weather</text>
+  <rect
+     x="690"
+     y="98"
+     width="180"
+     height="96"
+     rx="22"
+     fill="#25272d"
+     id="rect36" />
+  <circle
+     cx="778.47797"
+     cy="128.53938"
+     r="27.983711"
+     fill="#294a32"
+     id="circle36"
+     style="stroke-width:1.27199" />
+  <text
+     x="778.47797"
+     y="138.71527"
+     text-anchor="middle"
+     fill="#79bd70"
+     font-family="Arial, sans-serif"
+     font-size="29.2557px"
+     id="text37"
+     style="stroke-width:1.27199">⬟</text>
+  <text
+     x="778.47797"
+     y="186.32275"
+     text-anchor="middle"
+     fill="#f8fafc"
+     font-family="Arial, sans-serif"
+     font-size="19.0798px"
+     id="text38"
+     style="stroke-width:1.27199">Secure</text>
+  <rect
+     x="880"
+     y="98"
+     width="200"
+     height="96"
+     rx="22"
+     fill="#25272d"
+     id="rect38" />
+  <circle
+     cx="977.37195"
+     cy="130.3123"
+     r="27.986673"
+     fill="#443355"
+     id="circle38"
+     style="stroke-width:1.27212" />
+  <text
+     x="977.37195"
+     y="138.48927"
+     text-anchor="middle"
+     fill="#b68ae0"
+     font-family="Arial, sans-serif"
+     font-size="29.2588px"
+     id="text39"
+     style="stroke-width:1.27212">▦</text>
+  <text
+     x="977.37195"
+     y="188.10201"
+     text-anchor="middle"
+     fill="#f8fafc"
+     font-family="Arial, sans-serif"
+     font-size="19.0818px"
+     id="text40"
+     style="stroke-width:1.27212">Network</text>
+  <rect
+     x="310"
+     y="206"
+     width="340"
+     height="64"
+     rx="22"
+     fill="#25272d"
+     id="rect40" />
+  <circle
+     cx="350"
+     cy="238"
+     r="23"
+     fill="#3f4148"
+     id="circle40" />
+  <circle
+     cx="350"
+     cy="231"
+     r="8"
+     fill="#d2a27d"
+     id="circle41" />
+  <path
+     d="m 336,252 c 9.33333,-16.66667 18.66667,-16.66667 28,0"
+     fill="#b26753"
+     id="path41"
+     sodipodi:nodetypes="cc" />
+  <text
+     x="385"
+     y="235"
+     fill="#f8fafc"
+     font-family="Arial, sans-serif"
+     font-size="15px"
+     font-weight="700"
+     id="text41">Alex</text>
+  <text
+     x="385"
+     y="254"
+     fill="#c4c6cc"
+     font-family="Arial, sans-serif"
+     font-size="13px"
+     id="text42">Home</text>
+  <rect
+     x="660"
+     y="206"
+     width="420"
+     height="64"
+     rx="22"
+     fill="#25272d"
+     id="rect42" />
+  <circle
+     cx="700"
+     cy="238"
+     r="23"
+     fill="#3f4148"
+     id="circle42" />
+  <circle
+     cx="700"
+     cy="231"
+     r="8"
+     fill="#d2a27d"
+     id="circle43" />
+  <path
+     d="m 686,252 c 9.33333,-16.66667 18.66667,-16.66667 28,0"
+     fill="#557ca0"
+     id="path43"
+     sodipodi:nodetypes="cc" />
+  <text
+     x="735"
+     y="235"
+     fill="#f8fafc"
+     font-family="Arial, sans-serif"
+     font-size="15px"
+     font-weight="700"
+     id="text43">Sam</text>
+  <text
+     x="735"
+     y="254"
+     fill="#c4c6cc"
+     font-family="Arial, sans-serif"
+     font-size="13px"
+     id="text44">Home</text>
+  <text
+     x="324"
+     y="331"
+     fill="#f8fafc"
+     font-family="Arial, sans-serif"
+     font-size="25px"
+     font-weight="700"
+     id="text45">Rooms</text>
+  <rect
+     x="310"
+     y="350"
+     width="374"
+     height="134"
+     rx="22"
+     fill="#2c251d"
+     id="rect45" />
+  <circle
+     cx="346.45837"
+     cy="385.03546"
+     r="43.92498"
+     fill="#51402a"
+     id="circle45"
+     style="stroke-width:1.18716" />
+  <text
+     x="313.80365"
+     y="441.26407"
+     text-anchor="middle"
+     fill="#f0a437"
+     font-family="Arial, sans-serif"
+     font-size="57.202px"
+     id="text46"
+     transform="scale(1.1005723,0.90861818)"
+     style="stroke-width:1.50531">⬟</text>
+  <text
+     x="403"
+     y="386"
+     fill="#f8fafc"
+     font-family="Arial, sans-serif"
+     font-size="16px"
+     font-weight="700"
+     id="text47">Living room</text>
+  <text
+     x="403"
+     y="407"
+     fill="#d1d5db"
+     font-family="Arial, sans-serif"
+     font-size="13px"
+     id="text48">20 °C / 510 ppm</text>
+  <line
+     x1="326"
+     y1="430"
+     x2="668"
+     y2="430"
+     stroke="#59432a"
+     stroke-width="2"
+     id="line48" />
+  <circle
+     cx="644.40063"
+     cy="461.59943"
+     r="20.599993"
+     fill="#3d3224"
+     id="circle48"
+     style="stroke-width:1.37321" />
+  <text
+     x="629.29163"
+     y="470.98627"
+     fill="#898b91"
+     font-family="Arial, sans-serif"
+     font-size="31.9986px"
+     id="text56-8"
+     style="fill:#f9ad21;fill-opacity:1;stroke-width:1.59993">♨</text>
+  <rect
+     x="704"
+     y="350"
+     width="376"
+     height="134"
+     rx="22"
+     fill="#25272d"
+     id="rect48" />
+  <circle
+     cx="740.45844"
+     cy="386.76669"
+     r="37"
+     fill="#34363c"
+     id="circle49" />
+  <text
+     x="740.45837"
+     y="414.70541"
+     text-anchor="middle"
+     fill="#8b8d93"
+     font-family="Arial, sans-serif"
+     font-size="106.308px"
+     id="text49"
+     style="stroke-width:3.1267">⌁</text>
+  <text
+     x="797"
+     y="386"
+     fill="#f8fafc"
+     font-family="Arial, sans-serif"
+     font-size="16px"
+     font-weight="700"
+     id="text50">Basement</text>
+  <text
+     x="797"
+     y="407"
+     fill="#d1d5db"
+     font-family="Arial, sans-serif"
+     font-size="13px"
+     id="text51">15 °C</text>
+  <line
+     x1="720"
+     y1="430"
+     x2="1064"
+     y2="430"
+     stroke="#3b3d43"
+     stroke-width="2"
+     id="line51" />
+  <rect
+     x="310"
+     y="500"
+     width="374"
+     height="134"
+     rx="22"
+     fill="#25272d"
+     id="rect52" />
+  <circle
+     cx="347.03546"
+     cy="536.18958"
+     r="37"
+     fill="#34363c"
+     id="circle52" />
+  <text
+     x="347.28635"
+     y="554.80463"
+     text-anchor="middle"
+     fill="#8b8d93"
+     font-family="Arial, sans-serif"
+     font-size="56.4811px"
+     id="text53"
+     style="stroke-width:1.66121">♧</text>
+  <text
+     x="403"
+     y="536"
+     fill="#f8fafc"
+     font-family="Arial, sans-serif"
+     font-size="16px"
+     font-weight="700"
+     id="text54">Bathroom</text>
+  <text
+     x="403"
+     y="557"
+     fill="#d1d5db"
+     font-family="Arial, sans-serif"
+     font-size="13px"
+     id="text55">18 °C</text>
+  <line
+     x1="326"
+     y1="578"
+     x2="668"
+     y2="578"
+     stroke="#3b3d43"
+     stroke-width="2"
+     id="line55" />
+  <rect
+     x="704"
+     y="500"
+     width="376"
+     height="134"
+     rx="22"
+     fill="#25272d"
+     id="rect56" />
+  <circle
+     cx="739.3042"
+     cy="536.18964"
+     r="37"
+     fill="#34363c"
+     id="circle56" />
+  <text
+     x="739.3952"
+     y="550.48383"
+     text-anchor="middle"
+     fill="#8b8d93"
+     font-family="Arial, sans-serif"
+     font-size="51.6255px"
+     id="text57"
+     style="stroke-width:1.51838">▰</text>
+  <text
+     x="797"
+     y="536"
+     fill="#f8fafc"
+     font-family="Arial, sans-serif"
+     font-size="16px"
+     font-weight="700"
+     id="text58">Master bedroom</text>
+  <text
+     x="797"
+     y="557"
+     fill="#d1d5db"
+     font-family="Arial, sans-serif"
+     font-size="13px"
+     id="text59">10 °C</text>
+  <line
+     x1="720"
+     y1="578"
+     x2="1064"
+     y2="578"
+     stroke="#3b3d43"
+     stroke-width="2"
+     id="line59" />
+  <rect
+     x="4"
+     y="4"
+     width="286"
+     height="692"
+     rx="12"
+     fill="none"
+     stroke="#f4c542"
+     stroke-width="3"
+     id="rect64" />
+  <rect
+     x="194.89529"
+     y="4.3495464"
+     width="94"
+     height="30"
+     rx="8"
+     fill="#111318"
+     stroke="#f4c542"
+     stroke-width="2"
+     id="rect65" />
+  <text
+     x="241.89529"
+     y="24.349546"
+     text-anchor="middle"
+     fill="#f4c542"
+     font-family="Arial, sans-serif"
+     font-size="13"
+     font-weight="700"
+     id="text65"
+     style="font-size:16px">Sidebar</text>
+  <rect
+     x="16"
+     y="616"
+     width="260"
+     height="42"
+     rx="8"
+     fill="none"
+     stroke="#f4c542"
+     stroke-width="3"
+     id="rect66" />
+  <rect
+     x="174"
+     y="589"
+     width="96"
+     height="28"
+     rx="8"
+     fill="#111318"
+     stroke="#f4c542"
+     stroke-width="2"
+     id="rect67" />
+  <text
+     x="222"
+     y="608"
+     text-anchor="middle"
+     fill="#f4c542"
+     font-family="Arial, sans-serif"
+     font-size="13"
+     font-weight="700"
+     id="text67"
+     style="font-size:16px">Settings</text>
+  <rect
+     x="304"
+     y="93"
+     width="782"
+     height="106"
+     rx="12"
+     fill="none"
+     stroke="#f4c542"
+     stroke-width="3"
+     id="rect68" />
+  <rect
+     x="304"
+     y="63"
+     width="92"
+     height="30"
+     rx="8"
+     fill="#111318"
+     stroke="#f4c542"
+     stroke-width="2"
+     id="rect69" />
+  <text
+     x="350"
+     y="83"
+     text-anchor="middle"
+     fill="#f4c542"
+     font-family="Arial, sans-serif"
+     font-size="13"
+     font-weight="700"
+     id="text69"
+     style="font-size:14.6667px">Headers</text>
+  <rect
+     x="1028"
+     y="5"
+     width="56"
+     height="52"
+     rx="12"
+     fill="none"
+     stroke="#f4c542"
+     stroke-width="3"
+     id="rect70" />
+  <rect
+     x="936"
+     y="6"
+     width="92"
+     height="30"
+     rx="8"
+     fill="#111318"
+     stroke="#f4c542"
+     stroke-width="2"
+     id="rect71" />
+  <text
+     x="982"
+     y="26"
+     text-anchor="middle"
+     fill="#f4c542"
+     font-family="Arial, sans-serif"
+     font-size="13px"
+     font-weight="700"
+     id="text71"
+     style="font-size:16px">Cogwheel</text>
+  <rect
+     x="304"
+     y="344"
+     width="386"
+     height="144"
+     rx="24"
+     fill="none"
+     stroke="#f4c542"
+     stroke-width="3"
+     id="rect72" />
+  <rect
+     x="586"
+     y="317"
+     width="100"
+     height="28"
+     rx="8"
+     fill="#111318"
+     stroke="#f4c542"
+     stroke-width="2"
+     id="rect73" />
+  <text
+     x="636"
+     y="336"
+     text-anchor="middle"
+     fill="#f4c542"
+     font-family="Arial, sans-serif"
+     font-size="13px"
+     font-weight="700"
+     id="text73"
+     style="font-size:16px">Room card</text>
+  <rect
+     x="335.26694"
+     y="437.10861"
+     width="341.28476"
+     height="48.518047"
+     rx="11.376158"
+     fill="none"
+     stroke="#f4c542"
+     stroke-width="2.67155"
+     id="rect74" />
+  <rect
+     x="336"
+     y="438"
+     width="96"
+     height="28"
+     rx="8"
+     fill="#111318"
+     stroke="#f4c542"
+     stroke-width="2"
+     id="rect75" />
+  <text
+     x="384"
+     y="457"
+     text-anchor="middle"
+     fill="#f4c542"
+     font-family="Arial, sans-serif"
+     font-size="13"
+     font-weight="700"
+     id="text75"
+     style="font-size:16px">Shortcuts</text>
+  <circle
+     cx="1035.9742"
+     cy="454.3288"
+     r="20.599993"
+     fill="#3d3224"
+     id="circle48-5"
+     style="fill:#34363c;fill-opacity:1;stroke-width:1.37321" />
+  <circle
+     cx="986.17133"
+     cy="453.0625"
+     r="20.599993"
+     fill="#3d3224"
+     id="circle48-5-1"
+     style="fill:#34363c;fill-opacity:1;stroke-width:1.37321" />
+  <text
+     x="1020.8652"
+     y="463.71564"
+     fill="#898b91"
+     font-family="Arial, sans-serif"
+     font-size="31.9986px"
+     id="text56-8-1"
+     style="fill:#f9ad21;fill-opacity:1;stroke-width:1.59993">♨</text>
+  <text
+     x="970.67743"
+     y="464"
+     fill="#898b91"
+     font-family="Arial, sans-serif"
+     font-size="33.0434px"
+     id="text52"
+     style="stroke-width:1.5735">✣</text>
+  <path
+     d="m 316.99918,20.723001 h 18 m -18,6 h 18 m -18,6 h 18"
+     stroke="#9ca3af"
+     stroke-width="2"
+     id="path3-5"
+     sodipodi:nodetypes="cccccc" />
+</svg>

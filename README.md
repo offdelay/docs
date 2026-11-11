@@ -55,10 +55,8 @@ For a clean build that fails on warnings, run:
 uvx zensical build --clean --strict
 ```
 
-## VS Code
-
-Open the repository in VS Code and install the recommended extensions when
-prompted. Prettier and TOML support are recommended for repository files.
+If updating or adding translations, run the internationalization helper scripts
+in `scripts/i18n/` to keep language files synchronized.
 
 ## Workflows and publishing
 
