@@ -1,0 +1,328 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1000" width="1200" height="1000">
+  <defs>
+    <!-- Material Design Icons (24x24) - Licensed under Apache 2.0 -->
+    <g id="mdi-menu-open">
+      <path d="M21,15.61L19.59,17L14.58,12L19.59,7L21,8.39L17.44,12L21,15.61M3,6H16V8H3V6M3,13V11H13V13H3M3,18V16H16V18H3Z" />
+    </g>
+    <g id="mdi-view-dashboard">
+      <path d="M13,3V9H21V3M13,21H21V11H13M3,21H11V15H3M3,13H11V3H3V13Z" />
+    </g>
+    <g id="mdi-map">
+      <path d="M15,19L9,16.89V5L15,7.11M20.5,3C20.44,3 20.39,3 20.34,3L15,5.1L9,3L3.36,4.9C3.15,4.97 3,5.15 3,5.38V20.5A0.5,0.5 0 0,0 3.5,21C3.55,21 3.61,21 3.66,20.97L9,18.9L15,21L20.64,19.1C20.85,19 21,18.85 21,18.62V3.5A0.5,0.5 0 0,0 20.5,3Z" />
+    </g>
+    <g id="mdi-flash">
+      <path d="M7,2V13H10V22L17,10H13L17,2H7Z" />
+    </g>
+    <g id="mdi-format-list-bulleted">
+      <path d="M7,5H21V7H7V5M7,13V11H21V13H7M4,4.5A1.5,1.5 0 0,1 5.5,6A1.5,1.5 0 0,1 4,7.5A1.5,1.5 0 0,1 2.5,6A1.5,1.5 0 0,1 4,4.5M4,10.5A1.5,1.5 0 0,1 5.5,12A1.5,1.5 0 0,1 4,13.5A1.5,1.5 0 0,1 2.5,12A1.5,1.5 0 0,1 4,10.5M7,19V17H21V19H7M4,16.5A1.5,1.5 0 0,1 5.5,18A1.5,1.5 0 0,1 4,19.5A1.5,1.5 0 0,1 2.5,18A1.5,1.5 0 0,1 4,16.5Z" />
+    </g>
+    <g id="mdi-poll-box">
+      <path d="M19,3H5C3.89,3 3,3.89 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5C21,3.89 20.1,3 19,3M9,17H7V10H9V17M13,17H11V7H13V17M17,17H15V13H17V17Z" />
+    </g>
+    <g id="mdi-shield-home">
+      <path d="M11,13H13V16H16V11H18L12,6L6,11H8V16H11V13M12,1L21,5V11C21,16.55 17.16,21.74 12,23C6.84,21.74 3,16.55 3,11V5L12,1Z" />
+    </g>
+    <g id="mdi-calendar">
+      <path d="M19,19H5V8H19M16,1V3H8V1H6V3H5C3.89,3 3,3.89 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V5C21,3.89 20.1,3 19,3H18V1M17,12H12V17H17V12Z" />
+    </g>
+    <g id="mdi-ev-station">
+      <path d="M19.77,7.23L19.78,7.22L16.06,3.5L15,4.56L17.11,6.67C16.17,7.03 15.5,7.93 15.5,9A2.5,2.5 0 0,0 18,11.5C18.36,11.5 18.69,11.42 19,11.29V18.5A1,1 0 0,1 18,19.5A1,1 0 0,1 17,18.5V14A2,2 0 0,0 15,12H14V5A2,2 0 0,0 12,3H6A2,2 0 0,0 4,5V21H14V13.5H15.5V18.5A2.5,2.5 0 0,0 18,21A2.5,2.5 0 0,0 20.5,18.5V9C20.5,8.31 20.22,7.68 19.77,7.23M18,10A1,1 0 0,1 17,9A1,1 0 0,1 18,8A1,1 0 0,1 19,9A1,1 0 0,1 18,10M8,18V13.5H6L10,6V11H12L8,18Z" />
+    </g>
+    <g id="mdi-play-box-multiple">
+      <path d="M4,6H2V20A2,2 0 0,0 4,22H18V20H4V6M20,2H8A2,2 0 0,0 6,4V16A2,2 0 0,0 8,18H20A2,2 0 0,0 22,16V4A2,2 0 0,0 20,2M12,14.5V5.5L18,10L12,14.5Z" />
+    </g>
+    <g id="mdi-vscode">
+      <path d="M17.5,2L7.8,10.8L3.2,7.3L1.5,8.2V15.8L3.2,16.7L7.8,13.2L17.5,22L22.5,20V4L17.5,2M17.5,6.8V17.2L11.2,12L17.5,6.8M3.5,9.7L6.1,12L3.5,14.3V9.7Z" />
+    </g>
+    <g id="mdi-z2m">
+      <path d="M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2M8,7H16L10.5,15H16V17H8L13.5,9H8V7Z" />
+    </g>
+    <g id="mdi-cog">
+      <path d="M12,15.5A3.5,3.5 0 0,1 8.5,12A3.5,3.5 0 0,1 12,8.5A3.5,3.5 0 0,1 15.5,12A3.5,3.5 0 0,1 12,15.5M19.43,12.97C19.47,12.65 19.5,12.33 19.5,12C19.5,11.67 19.47,11.34 19.43,11L21.54,9.37C21.73,9.22 21.78,8.95 21.66,8.73L19.66,5.27C19.54,5.05 19.27,4.96 19.05,5.05L16.56,6.05C16.04,5.66 15.5,5.32 14.87,5.07L14.5,2.42C14.46,2.18 14.25,2 14,2H10C9.75,2 9.54,2.18 9.5,2.42L9.13,5.07C8.5,5.32 7.96,5.66 7.44,6.05L4.95,5.05C4.73,4.96 4.46,5.05 4.34,5.27L2.34,8.73C2.21,8.95 2.27,9.22 2.46,9.37L4.57,11C4.53,11.34 4.5,11.67 4.5,12C4.5,12.33 4.53,12.65 4.57,12.97L2.46,14.63C2.27,14.78 2.21,15.05 2.34,15.27L4.34,18.73C4.46,18.95 4.73,19.03 4.95,18.95L7.44,17.94C7.96,18.34 8.5,18.68 9.13,18.93L9.5,21.58C9.54,21.82 9.75,22 10,22H14C14.25,22 14.46,21.82 14.5,21.58L14.87,18.93C15.5,18.67 16.04,18.34 16.56,17.94L19.05,18.95C19.27,19.03 19.54,18.95 19.66,18.73L21.66,15.27C21.78,15.05 21.73,14.78 21.54,14.63L19.43,12.97Z" />
+    </g>
+    <g id="mdi-bell">
+      <path d="M21,19V20H3V19L5,17V11C5,7.9 7.03,5.17 10,4.29C10,4.19 10,4.1 10,4A2,2 0 0,1 12,2A2,2 0 0,1 14,4C14,4.1 14,4.19 14,4.29C16.97,5.17 19,7.9 19,11V17L21,19M14,21A2,2 0 0,1 12,23A2,2 0 0,1 10,21" />
+    </g>
+    <g id="mdi-plus">
+      <path d="M19,13H13V19H11V13H5V11H11V5H13V11H19V13Z" />
+    </g>
+    <g id="mdi-magnify">
+      <path d="M9.5,3A6.5,6.5 0 0,1 16,9.5C16,11.11 15.41,12.59 14.44,13.73L14.71,14H15.5L20.5,19L19,20.5L14,15.5V14.71L13.73,14.44C12.59,15.41 11.11,16 9.5,16A6.5,6.5 0 0,1 3,9.5A6.5,6.5 0 0,1 9.5,3M9.5,5C7,5 5,7 5,9.5C5,12 7,14 9.5,14C12,14 14,12 14,9.5C14,7 12,5 9.5,5Z" />
+    </g>
+    <g id="mdi-message-text-outline">
+      <path d="M20,2H4A2,2 0 0,0 2,4V22L6,18H20A2,2 0 0,0 22,16V4A2,2 0 0,0 20,2M20,16H5.17L4,17.17V4H20V16M6,7H18V9H6V7M6,11H15V13H6V11Z" />
+    </g>
+    <g id="mdi-pencil">
+      <path d="M20.71,7.04C21.1,6.65 21.1,6 20.71,5.63L18.37,3.29C18,2.9 17.35,2.9 16.96,3.29L15.12,5.12L18.87,8.87M3,17.25V21H6.75L17.81,9.93L14.06,6.18L3,17.25Z" />
+    </g>
+    <g id="mdi-leaf">
+      <path d="M17,8C8,10 5.9,16.17 3.82,21.34L5.71,22L6.66,19.7C7.14,19.87 7.64,20 8,20C19,20 22,3 22,3C21,5 14,5.25 9,6.25C4,7.25 2,11.5 2,13.5C2,15.5 3.75,17.25 3.75,17.25C7,8 17,8 17,8Z" />
+    </g>
+    <g id="mdi-solar-power">
+      <path d="M4,2H20L22,10H2L4,2M4.34,4L3.84,6H8V4H4.34M10,4V6H14V4H10M16,4V6H20.16L19.66,4H16M3.34,8L2.84,10H8V8H3.34M10,8V10H14V8H10M16,8V10H21.16L20.66,8H16M11,12H13L11,17H14L10,22V18H8L11,12Z" />
+    </g>
+    <g id="mdi-water">
+      <path d="M12,20A6,6 0 0,1 6,14C6,10 12,3.25 12,3.25C12,3.25 18,10 18,14A6,6 0 0,1 12,20Z" />
+    </g>
+    <g id="mdi-transmission-tower">
+      <path d="M8.28,5.45L6.5,4.55L7.76,2H16.23L17.5,4.55L15.72,5.45L15,4H9L8.28,5.45M18.62,8H14.53L13.74,5H10.26L9.47,8H5.38L4.1,5.45L5.89,4.55L6.62,6H17.38L18.11,4.55L19.9,5.45L18.62,8M17.77,22H15.7L15.46,21.1L12,18.5L8.54,21.1L8.3,22H6.23L9.89,8H14.11L17.77,22M11.6,10L10.8,13H13.2L12.4,10H11.6M9.42,18.25L12,16.32L14.58,18.25L13.72,15H10.28L9.42,18.25Z" />
+    </g>
+    <g id="mdi-home">
+      <path d="M10,20V14H14V20H19V12H22L12,3L2,12H5V20H10Z" />
+    </g>
+    <g id="mdi-chevron-left">
+      <path d="M15.41,16.58L10.83,12L15.41,7.41L14,6L8,12L14,18L15.41,16.58Z" />
+    </g>
+    <g id="mdi-chevron-right">
+      <path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" />
+    </g>
+    <g id="mdi-dots-vertical">
+      <path d="M12,16A2,2 0 0,1 14,18A2,2 0 0,1 12,20A2,2 0 0,1 10,18A2,2 0 0,1 12,16M12,10A2,2 0 0,1 14,12A2,2 0 0,1 12,14A2,2 0 0,1 10,12A2,2 0 0,1 12,10M12,4A2,2 0 0,1 14,6A2,2 0 0,1 12,8A2,2 0 0,1 10,6A2,2 0 0,1 12,4Z" />
+    </g>
+  </defs>
+
+  <!-- ==================== 0. MAIN BACKGROUNDS ==================== -->
+  <rect x="0" y="0" width="1200" height="1000" fill="#111111" />
+  <rect x="0" y="0" width="318" height="1000" fill="#141414" />
+  <line x1="318" y1="0" x2="318" y2="1000" stroke="#222222" stroke-width="1" />
+
+  <!-- ==================== 1. LEFT SIDEBAR ==================== -->
+  <g id="sidebar">
+    <!-- Top Brand Header -->
+    <use href="#mdi-menu-open" transform="translate(14, 21)" fill="#9e9e9e" />
+    <text x="62" y="40" font-family="sans-serif" font-size="25" font-weight="normal" fill="#e1e1e1">Home Assistant</text>
+
+    <!-- Overview -->
+    <g transform="translate(0, 86)">
+      <use href="#mdi-view-dashboard" transform="translate(14, 8)" fill="#9e9e9e" />
+      <text x="62" y="26" font-family="sans-serif" font-size="18" font-weight="bold" fill="#9e9e9e">Overview</text>
+    </g>
+
+    <!-- Map -->
+    <g transform="translate(0, 142)">
+      <use href="#mdi-map" transform="translate(14, 8)" fill="#9e9e9e" />
+      <text x="62" y="26" font-family="sans-serif" font-size="18" font-weight="bold" fill="#9e9e9e">Map</text>
+    </g>
+
+    <!-- Energy (Selected + Rounded Green Highlight Box + "Dashboard" Label) -->
+    <g id="dashboard-callout" transform="translate(0, 192)">
+      <!-- Label Pill Above Box -->
+      <rect x="185" y="-30" width="120" height="30" rx="8" fill="#188050" />
+      <text x="245" y="-8" text-anchor="middle" font-family="sans-serif" font-size="20" font-weight="bold" fill="#ffffff">Dashboard</text>
+      <!-- Rounded Highlight Box -->
+      <rect x="6" y="0" width="306" height="48" rx="12" ry="12" fill="#1f2421" stroke="#188050" stroke-width="3.5" />
+      <use href="#mdi-flash" transform="translate(14, 12)" fill="#b0b0b0" />
+      <text x="62" y="30" font-family="sans-serif" font-size="18" font-weight="bold" fill="#b0b0b0">Energy</text>
+    </g>
+
+    <!-- Activity -->
+    <g transform="translate(0, 252)">
+      <use href="#mdi-format-list-bulleted" transform="translate(14, 8)" fill="#9e9e9e" />
+      <text x="62" y="26" font-family="sans-serif" font-size="18" font-weight="bold" fill="#9e9e9e">Activity</text>
+    </g>
+
+    <!-- History -->
+    <g transform="translate(0, 308)">
+      <use href="#mdi-poll-box" transform="translate(14, 8)" fill="#9e9e9e" />
+      <text x="62" y="26" font-family="sans-serif" font-size="18" font-weight="bold" fill="#9e9e9e">History</text>
+    </g>
+
+    <!-- Alarmo -->
+    <g transform="translate(0, 368)">
+      <use href="#mdi-shield-home" transform="translate(18, 8)" fill="#9e9e9e" />
+      <text x="64" y="26" font-family="sans-serif" font-size="16" font-weight="bold" fill="#9e9e9e">Alarmo</text>
+    </g>
+
+    <!-- Calendar -->
+    <g transform="translate(0, 420)">
+      <use href="#mdi-calendar" transform="translate(14, 8)" fill="#9e9e9e" />
+      <text x="62" y="26" font-family="sans-serif" font-size="18" font-weight="bold" fill="#9e9e9e">Calendar</text>
+    </g>
+
+    <!-- evcc -->
+    <g transform="translate(0, 476)">
+      <use href="#mdi-ev-station" transform="translate(14, 8)" fill="#9e9e9e" />
+      <text x="62" y="26" font-family="sans-serif" font-size="18" font-weight="bold" fill="#9e9e9e">evcc</text>
+    </g>
+
+    <!-- Media -->
+    <g transform="translate(0, 532)">
+      <use href="#mdi-play-box-multiple" transform="translate(14, 8)" fill="#9e9e9e" />
+      <text x="62" y="26" font-family="sans-serif" font-size="18" font-weight="bold" fill="#9e9e9e">Media</text>
+    </g>
+
+    <!-- Settings + Badge 8 -->
+    <g transform="translate(0, 855)">
+      <use href="#mdi-cog" transform="translate(14, 8)" fill="#9e9e9e" />
+      <text x="62" y="26" font-family="sans-serif" font-size="18" font-weight="bold" fill="#9e9e9e">Settings</text>
+      <circle cx="286" cy="20" r="13" fill="#b7791f" />
+      <text x="286" y="25" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="bold" fill="#ffffff">8</text>
+    </g>
+
+    <!-- Notifications -->
+    <g transform="translate(0, 912)">
+      <use href="#mdi-bell" transform="translate(14, 8)" fill="#9e9e9e" />
+      <text x="62" y="26" font-family="sans-serif" font-size="18" font-weight="bold" fill="#9e9e9e">Notifications</text>
+    </g>
+
+    <!-- User Profile (user) -->
+    <g transform="translate(0, 962)">
+      <circle cx="26" cy="20" r="20" fill="#4a3f35" />
+      <circle cx="26" cy="15" r="7" fill="#d2b48c" />
+      <path d="M12,34 C12,26 40,26 40,34" fill="#2c2520" />
+      <text x="62" y="26" font-family="sans-serif" font-size="18" font-weight="bold" fill="#9e9e9e">user</text>
+    </g>
+  </g>
+
+  <!-- ==================== 2. CARD 1: ENERGY DISTRIBUTION ==================== -->
+  <g id="energy-distribution-card" transform="translate(340, 100)">
+    <!-- Card Surface -->
+    <rect x="0" y="0" width="836" height="388" rx="18" fill="#1c1c1c" />
+    <text x="22" y="54" font-family="sans-serif" font-size="28" font-weight="normal" fill="#e1e1e1">Energy distribution</text>
+
+    <!-- Connecting Flow Lines -->
+    <line x1="148" y1="204" x2="148" y2="244" stroke="#3b7e48" stroke-width="1.8" />
+    <path d="M 402 202 C 402 270, 380 286, 336 286 L 198 286" fill="none" stroke="#8250df" stroke-width="1.8" />
+    <circle cx="401" cy="212" r="6" fill="#9a67ea" />
+    <path d="M 434 202 C 434 270, 456 286, 500 286 L 638 286" fill="none" stroke="#c88228" stroke-width="1.8" />
+    <line x1="196" y1="312" x2="640" y2="312" stroke="#426cb4" stroke-width="1.8" />
+    <circle cx="352" cy="312" r="6" fill="#6395ec" />
+    <line x1="688" y1="204" x2="688" y2="244" stroke="#459fb6" stroke-width="1.8" />
+    <circle cx="688" cy="222" r="3.5" fill="#459fb6" />
+
+    <!-- Node 1: Low-carbon -->
+    <g transform="translate(148, 154)">
+      <text x="0" y="-62" text-anchor="middle" font-family="sans-serif" font-size="13.5" fill="#9e9e9e">Low-carbon</text>
+      <circle cx="0" cy="0" r="49" fill="#1c1c1c" stroke="#438a50" stroke-width="3" />
+      <use href="#mdi-leaf" transform="translate(-13, -24) scale(1.1)" fill="#438a50" />
+      <text x="0" y="21" text-anchor="middle" font-family="sans-serif" font-size="15" fill="#e1e1e1">2.12 kWh</text>
+    </g>
+
+    <!-- Node 2: Solar -->
+    <g transform="translate(418, 154)">
+      <text x="0" y="-62" text-anchor="middle" font-family="sans-serif" font-size="13.5" fill="#9e9e9e">Solar</text>
+      <circle cx="0" cy="0" r="49" fill="#1c1c1c" stroke="#d4882a" stroke-width="3" />
+      <use href="#mdi-solar-power" transform="translate(-13, -24) scale(1.1)" fill="#e1e1e1" />
+      <text x="0" y="21" text-anchor="middle" font-family="sans-serif" font-size="15" fill="#e1e1e1">3.67 kWh</text>
+    </g>
+
+    <!-- Node 3: Water -->
+    <g transform="translate(688, 154)">
+      <text x="0" y="-62" text-anchor="middle" font-family="sans-serif" font-size="13.5" fill="#9e9e9e">Water</text>
+      <circle cx="0" cy="0" r="49" fill="#1c1c1c" stroke="#50a7c2" stroke-width="3" />
+      <use href="#mdi-water" transform="translate(-13, -24) scale(1.1)" fill="#e1e1e1" />
+      <text x="0" y="21" text-anchor="middle" font-family="sans-serif" font-size="15" fill="#e1e1e1">0.08 m³</text>
+    </g>
+
+    <!-- Node 4: Grid -->
+    <g transform="translate(148, 293)">
+      <circle cx="0" cy="0" r="49" fill="#1c1c1c" stroke="#4878c8" stroke-width="3" />
+      <use href="#mdi-transmission-tower" transform="translate(-13, -32) scale(1.1)" fill="#e1e1e1" />
+      <text x="0" y="10" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#9a67ea">←2.01 kWh</text>
+      <text x="0" y="28" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#538ce6">→2.94 kWh</text>
+      <text x="0" y="68" text-anchor="middle" font-family="sans-serif" font-size="13.5" fill="#9e9e9e">Grid</text>
+    </g>
+
+    <!-- Node 5: Home -->
+    <g transform="translate(688, 293)">
+      <circle cx="0" cy="0" r="48" fill="#1c1c1c" />
+      <path d="M -34 34 A 48 48 0 0 1 0 -48" fill="none" stroke="#438a50" stroke-width="5" />
+      <path d="M 0 -48 A 48 48 0 0 1 46 14" fill="none" stroke="#d4882a" stroke-width="5" />
+      <path d="M 46 14 A 48 48 0 0 1 -34 34" fill="none" stroke="#4878c8" stroke-width="5" />
+      <use href="#mdi-home" transform="translate(-13, -24) scale(1.1)" fill="#e1e1e1" />
+      <text x="0" y="21" text-anchor="middle" font-family="sans-serif" font-size="15" fill="#e1e1e1">4.6 kWh</text>
+      <text x="0" y="68" text-anchor="middle" font-family="sans-serif" font-size="13.5" fill="#9e9e9e">Home</text>
+    </g>
+  </g>
+
+  <!-- ==================== 3. CARD 2: TOTALS TABLE ==================== -->
+  <g id="totals-card" transform="translate(340, 500)">
+    <rect x="0" y="0" width="836" height="395" rx="18" fill="#1c1c1c" />
+    <text x="22" y="54" font-family="sans-serif" font-size="28" font-weight="normal" fill="#e1e1e1">Totals</text>
+
+    <!-- Table Header -->
+    <text x="84" y="102" font-family="sans-serif" font-size="15" font-weight="bold" fill="#cccccc">Source</text>
+    <text x="731" y="102" text-anchor="end" font-family="sans-serif" font-size="15" font-weight="bold" fill="#cccccc">Energy</text>
+    <text x="816" y="102" text-anchor="end" font-family="sans-serif" font-size="15" font-weight="bold" fill="#cccccc">Cost</text>
+    <line x1="0" y1="125" x2="836" y2="125" stroke="#2c2c2c" stroke-width="1" />
+
+    <!-- Row 1: Solar total -->
+    <g transform="translate(0, 125)">
+      <rect x="21" y="28" width="42" height="21" rx="4" fill="#6f4e22" stroke="#d4882a" stroke-width="1.2" />
+      <text x="84" y="44" font-family="sans-serif" font-size="15" fill="#e1e1e1">Solar total</text>
+      <text x="731" y="44" text-anchor="end" font-family="sans-serif" font-size="15" fill="#e1e1e1">3.67 kWh</text>
+      <line x1="0" y1="68" x2="836" y2="68" stroke="#2c2c2c" stroke-width="1" />
+    </g>
+
+    <!-- Row 2: Grid total -->
+    <g transform="translate(0, 193)">
+      <rect x="21" y="28" width="42" height="21" rx="4" fill="#314b78" stroke="#538ce6" stroke-width="1.2" />
+      <text x="84" y="44" font-family="sans-serif" font-size="15" fill="#e1e1e1">Grid total</text>
+      <text x="731" y="44" text-anchor="end" font-family="sans-serif" font-size="15" fill="#e1e1e1">0.93 kWh</text>
+      <text x="816" y="44" text-anchor="end" font-family="sans-serif" font-size="15" fill="#e1e1e1">€0.74</text>
+      <line x1="0" y1="68" x2="836" y2="68" stroke="#2c2c2c" stroke-width="1" />
+    </g>
+
+    <!-- Row 3: Water total -->
+    <g transform="translate(0, 261)">
+      <rect x="21" y="28" width="42" height="21" rx="4" fill="#33606e" stroke="#50a7c2" stroke-width="1.2" />
+      <text x="84" y="44" font-family="sans-serif" font-size="15" fill="#e1e1e1">Water total</text>
+      <text x="731" y="44" text-anchor="end" font-family="sans-serif" font-size="15" fill="#e1e1e1">0.08 m³</text>
+      <text x="816" y="44" text-anchor="end" font-family="sans-serif" font-size="15" fill="#e1e1e1">€0.53</text>
+      <line x1="0" y1="68" x2="836" y2="68" stroke="#2c2c2c" stroke-width="1" />
+    </g>
+
+    <!-- Row 4: Total costs -->
+    <g transform="translate(0, 329)">
+      <text x="84" y="42" font-family="sans-serif" font-size="15" font-weight="bold" fill="#e1e1e1">Total costs</text>
+      <text x="816" y="42" text-anchor="end" font-family="sans-serif" font-size="15" font-weight="bold" fill="#e1e1e1">€1.28</text>
+    </g>
+  </g>
+
+  <!-- ==================== 5. TOP NAVIGATION BAR (ROUNDED GREEN CALLOUT + "Header" LABEL) ==================== -->
+  <g id="header-callout">
+    <!-- Rounded Highlight Callout Border -->
+    <rect x="324" y="4" width="862" height="80" rx="14" ry="14" fill="#111111" stroke="#188050" stroke-width="3.5" />
+
+    <!-- Attached "Header" Label Badge (Bottom-Left of Header Box, matching your sketch) -->
+    <rect x="330" y="84" width="120" height="30" rx="8" fill="#188050" />
+    <text x="390" y="103" text-anchor="middle" font-family="sans-serif" font-size="20" font-weight="bold" fill="#ffffff">Header</text>
+
+    <!-- Tabs -->
+    <text x="394" y="42" text-anchor="middle" font-family="sans-serif" font-size="18" font-weight="bold" fill="#e1e1e1">Summary</text>
+    <line x1="338" y1="66" x2="452" y2="66" stroke="#ffffff" stroke-width="2.5" />
+
+    <text x="514" y="42" text-anchor="middle" font-family="sans-serif" font-size="18" font-weight="bold" fill="#9e9e9e">Electricity</text>
+    <text x="618" y="42" text-anchor="middle" font-family="sans-serif" font-size="18" font-weight="bold" fill="#9e9e9e">Water</text>
+    <text x="702" y="42" text-anchor="middle" font-family="sans-serif" font-size="18" font-weight="bold" fill="#9e9e9e">Now</text>
+
+    <!-- Action Icons Right -->
+    <use href="#mdi-plus" transform="translate(954, 21)" fill="#e1e1e1" />
+    <use href="#mdi-magnify" transform="translate(1015, 21)" fill="#e1e1e1" />
+    <use href="#mdi-message-text-outline" transform="translate(1076, 21)" fill="#e1e1e1" />
+    <use href="#mdi-pencil" transform="translate(1137, 21)" fill="#e1e1e1" />
+  </g>
+
+  <!-- ==================== 6. FLOATING DATE PICKER BAR (ROUNDED GREEN CALLOUT + "Period selector" LABEL) ==================== -->
+  <g id="period-selector-callout" transform="translate(369, 920)">
+    <!-- Attached "Period selector" Label Badge (Top-Left of Bar, matching your sketch) -->
+    <rect x="10" y="-30" width="160" height="30" rx="8" fill="#188050" />
+    <text x="90" y="-9" text-anchor="middle" font-family="sans-serif" font-size="20" font-weight="bold" fill="#ffffff">Period selector</text>
+
+    <!-- Rounded Green Callout Box -->
+    <rect x="0" y="0" width="772" height="71" rx="14" ry="14" fill="#222327" stroke="#188050" stroke-width="3.5" />
+
+    <!-- Calendar Icon + Date -->
+    <use href="#mdi-calendar" transform="translate(42, 24)" fill="#e1e1e1" />
+    <text x="85" y="45" font-family="sans-serif" font-size="25" font-weight="bold" fill="#e1e1e1">13 Nov</text>
+
+    <!-- "Now" Pill Button -->
+    <rect x="498" y="16" width="72" height="40" rx="20" fill="#3a3222" />
+    <text x="534" y="42" text-anchor="middle" font-family="sans-serif" font-size="18" font-weight="bold" fill="#e59c24">Now</text>
+
+    <!-- Navigation Chevrons & Menu Dots -->
+    <use href="#mdi-chevron-left" transform="translate(588, 24)" fill="#e1e1e1" />
+    <use href="#mdi-chevron-right" transform="translate(650, 24)" fill="#e1e1e1" />
+    <use href="#mdi-dots-vertical" transform="translate(711, 24)" fill="#e1e1e1" />
+  </g>
+</svg>

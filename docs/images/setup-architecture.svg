@@ -1,88 +1,269 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 760" role="img" aria-labelledby="title description">
-  <title id="title">Home Assistant and Offdelay architecture</title>
-  <desc id="description">Lamp, inverter, and heater devices connect through Home Assistant and Offdelay integrations to Home Assistant Core. A dashboard, Home Assistant apps including the Offdelay app, and Offdelay blueprints extend the system.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1160 680" width="1160" height="680">
   <defs>
-    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
-      <path d="M0 0 10 5 0 10z" fill="#8492a8"/>
+    <!-- ==================== ARROW MARKER (ALL GREY) ==================== -->
+    <marker id="arrow-grey" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M 1 1.5 L 8.5 5 L 1 8.5 z" fill="#94a3b8" />
     </marker>
-    <style>
-      text { font-family: Arial, Helvetica, sans-serif; fill: #f3f5f8; }
-      .title { font-size: 30px; font-weight: 700; }
-      .heading { font-size: 21px; font-weight: 700; }
-      .label { font-size: 16px; font-weight: 600; }
-      .detail { font-size: 14px; fill: #c1ccdc; }
-      .panel { fill: #171d2b; stroke: #39465b; stroke-width: 2; }
-      .item { fill: #222c3e; stroke: #3a4960; stroke-width: 1.5; }
-      .offdelay { fill: #30244a; stroke: #9a72f5; stroke-width: 2; }
-      .flow { fill: none; stroke: #8492a8; stroke-width: 3; marker-end: url(#arrow); }
-    </style>
+
+    <!-- Subtle Dot Grid Pattern -->
+    <pattern id="dot-grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#334155" fill-opacity="0.4" />
+    </pattern>
+
+    <!-- Core Gradient (Inkscape-safe userSpaceOnUse) -->
+    <linearGradient id="core-grad" x1="576" y1="240" x2="824" y2="550" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0284c7" />
+      <stop offset="0.55" stop-color="#0369a1" />
+      <stop offset="1" stop-color="#1e3a8a" />
+    </linearGradient>
+
+    <!-- ==================== MDI ICONS (24x24) ==================== -->
+    <!-- Note: Contains icons from Material Design Icons (Apache 2.0) -->
+    <g id="mdi-lightbulb">
+      <path d="M12,2A7,7 0 0,0 5,9C5,11.38 6.19,13.47 8,14.74V17A1,1 0 0,0 9,18H15A1,1 0 0,0 16,17V14.74C17.81,13.47 19,11.38 19,9A7,7 0 0,0 12,2M9,21A1,1 0 0,0 10,22H14A1,1 0 0,0 15,21V20H9V21Z" />
+    </g>
+
+    <g id="mdi-inverter">
+      <path d="M7,2V13H10V22L17,10H13L17,2H7Z" />
+    </g>
+
+    <g id="mdi-heater">
+      <path d="M17.66 11.2C17.43 10.9 17.15 10.64 16.89 10.38C16.22 9.78 15.46 9.35 14.82 8.72C13.33 7.26 13 4.85 13.95 3C13 3.23 12.17 3.75 11.46 4.32C8.87 6.4 7.85 10.07 9.07 13.22C9.11 13.32 9.15 13.42 9.15 13.55C9.15 13.77 9 13.97 8.8 14.05C8.57 14.15 8.33 14.09 8.14 13.93C8.08 13.88 8.04 13.83 8 13.76C6.87 12.33 6.69 10.28 7.45 8.64C5.78 10 4.87 12.3 5 14.47C5.06 14.97 5.12 15.47 5.29 15.97C5.43 16.57 5.7 17.17 6 17.7C7.08 19.43 8.95 20.67 10.96 20.92C13.1 21.19 15.39 20.8 17.03 19.32C18.86 17.66 19.5 15 18.56 12.72L18.43 12.46C18.22 12 17.66 11.2 17.66 11.2Z" />
+    </g>
+
+    <g id="mdi-button">
+      <path d="M12,3A4,4 0 0,1 16,7C16,7.73 15.81,8.41 15.46,9H18C18.95,9 19.75,9.67 19.95,10.56C21.96,18.57 22,18.78 22,19A2,2 0 0,1 20,21H13C12.47,21 11.96,20.79 11.59,20.41L6.2,15L7.65,13.55C8.03,13.17 8.59,13.03 9.1,13.16L11,13.64V7A1,1 0 0,1 12,6A1,1 0 0,1 13,7V11H14V7A2,2 0 0,0 12,5A2,2 0 0,0 10,7V9.46C9.16,8.73 8.59,7.67 8.59,6.5A3.41,3.41 0 0,1 12,3Z" />
+    </g>
+
+    <g id="mdi-puzzle">
+      <path d="M20.5,11H19V7C19,5.89 18.1,5 17,5H13V3.5A2.5,2.5 0 0,0 10.5,1A2.5,2.5 0 0,0 8,3.5V5H4A2,2 0 0,0 2,7V10.8H3.5C5,10.8 6.2,12 6.2,13.5C6.2,15 5,16.2 3.5,16.2H2V20A2,2 0 0,0 4,22H7.8V20.5C7.8,19 9,17.8 10.5,17.8C12,17.8 13.2,19 13.2,20.5V22H17A2,2 0 0,0 19,20V16H20.5A2.5,2.5 0 0,0 23,13.5A2.5,2.5 0 0,0 20.5,11Z" />
+    </g>
+
+    <g id="mdi-cube">
+      <path d="M21,16.5C21,16.88 20.79,17.21 20.47,17.38L12.57,21.82C12.41,21.94 12.21,22 12,22C11.79,22 11.59,21.94 11.43,21.82L3.53,17.38C3.21,17.21 3,16.88 3,16.5V7.5C3,7.12 3.21,6.79 3.53,6.62L11.43,2.18C11.59,2.06 11.79,2 12,2C12.21,2 12.41,2.06 12.57,2.18L20.47,6.62C20.79,6.79 21,7.12 21,7.5V16.5M12,4.15L6.04,7.5L12,10.85L17.96,7.5L12,4.15M5,15.91L11,19.29V12.58L5,9.21V15.91M19,15.91V9.21L13,12.58V19.29L19,15.91Z" />
+    </g>
+
+    <g id="mdi-dashboard">
+      <path d="M13,3V9H21V3M13,21H21V11H13M3,21H11V15H3M3,13H11V3H3V13Z" />
+    </g>
+
+    <g id="mdi-home-auto">
+      <path d="M12,3L2,12H5V20H19V12H22L12,3M12,8.75A2.25,2.25 0 0,1 14.25,11A2.25,2.25 0 0,1 12,13.25A2.25,2.25 0 0,1 9.75,11A2.25,2.25 0 0,1 12,8.75M12,15C13.5,15 16.5,15.75 16.5,17.25V18H7.5V17.25C7.5,15.75 10.5,15 12,15Z" />
+    </g>
+
+    <g id="mdi-bell">
+      <path d="M21,19V20H3V19L5,17V11C5,7.9 7.03,5.17 10,4.29C10,4.19 10,4.1 10,4A2,2 0 0,1 12,2A2,2 0 0,1 14,4C14,4.1 14,4.19 14,4.29C16.97,5.17 19,7.9 19,11V17L21,19M14,21A2,2 0 0,1 12,23A2,2 0 0,1 10,21" />
+    </g>
+
+    <g id="mdi-bolt">
+      <path d="M11 15H6L13 1V9H18L11 23V15Z" />
+    </g>
   </defs>
 
-  <rect width="1280" height="760" rx="22" fill="#111318"/>
-  <text class="title" x="48" y="58">Home Assistant architecture</text>
+  <!-- ==================== 0. CANVAS BACKGROUND ==================== -->
+  <rect x="0" y="0" width="1160" height="680" rx="20" fill="#0f1522" />
+  <rect x="0" y="0" width="1160" height="680" rx="20" fill="url(#dot-grid)" />
 
-  <g aria-label="Connections">
-    <path class="flow" d="M205 348H252"/>
-    <path class="flow" d="M485 348H536"/>
-    <path class="flow" d="M675 200V248"/>
-    <path class="flow" d="M814 348H861"/>
-    <path class="flow" d="M675 460V542"/>
+  <!-- ==================== HEADER ==================== -->
+  <g id="header" transform="translate(48, 38)">
+    <text x="0" y="16" font-family="sans-serif" font-size="22" font-weight="bold" fill="#f8fafc">Home Assistant Setup Flow</text>
+    <text x="0" y="38" font-family="sans-serif" font-size="13" fill="#94a3b8">How physical devices, integrations, and apps are set up inside Home Assistant</text>
+
+    <!-- Legend Pill Top-Right (Green Managed by Offdelay) -->
+    <g transform="translate(860, 0)">
+      <rect x="0" y="0" width="204" height="32" rx="16" fill="#113322" stroke="#4a8f48" stroke-width="1.5" />
+      <circle cx="18" cy="16" r="5" fill="#4a8f48" />
+      <text x="32" y="20" font-family="sans-serif" font-size="11.5" font-weight="bold" fill="#bbf7d0">Managed by Offdelay</text>
+    </g>
   </g>
 
-  <g aria-label="Devices">
-    <rect class="panel" x="32" y="235" width="174" height="226" rx="16"/>
-    <text class="heading" x="119" y="272" text-anchor="middle" fill="#b9c7d9">Devices</text>
-    <rect class="item" x="51" y="292" width="136" height="43" rx="9"/>
-    <circle cx="70" cy="313" r="7" fill="#f3c969"/>
-    <text class="label" x="88" y="319">Lamp</text>
-    <rect class="item" x="51" y="345" width="136" height="43" rx="9"/>
-    <circle cx="70" cy="366" r="7" fill="#65c7b1"/>
-    <text class="label" x="88" y="372">Inverter</text>
-    <rect class="item" x="51" y="398" width="136" height="43" rx="9"/>
-    <circle cx="70" cy="419" r="7" fill="#f09567"/>
-    <text class="label" x="88" y="425">Heater</text>
+  <!-- ==================== 1. DEVICES (LEFT COLUMN — 4 ITEMS) ==================== -->
+  <g id="devices-group" transform="translate(48, 114)">
+    <!-- Outer Panel Box -->
+    <rect x="0" y="0" width="176" height="516" rx="16" fill="#161f30" stroke="#334155" stroke-width="1.5" />
+    <text x="88" y="34" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="bold" fill="#f1f5f9">Devices</text>
+    <text x="88" y="52" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#94a3b8">Physical hardware</text>
+
+    <!-- 1. Lamp -->
+    <g transform="translate(16, 72)">
+      <rect x="0" y="0" width="144" height="92" rx="12" fill="#1e293b" stroke="#3b4963" stroke-width="1.2" />
+      <rect x="14" y="24" width="44" height="44" rx="10" fill="#f59e0b" fill-opacity="0.15" stroke="#f59e0b" stroke-opacity="0.4" stroke-width="1" />
+      <use href="#mdi-lightbulb" transform="translate(24, 34)" fill="#fbbf24" />
+      <text x="70" y="43" font-family="sans-serif" font-size="14" font-weight="bold" fill="#f8fafc">Lamp</text>
+      <text x="70" y="60" font-family="sans-serif" font-size="11" fill="#94a3b8">Lighting</text>
+    </g>
+
+    <!-- 2. Inverter -->
+    <g transform="translate(16, 180)">
+      <rect x="0" y="0" width="144" height="92" rx="12" fill="#1e293b" stroke="#3b4963" stroke-width="1.2" />
+      <rect x="14" y="24" width="44" height="44" rx="10" fill="#10b981" fill-opacity="0.15" stroke="#10b981" stroke-opacity="0.4" stroke-width="1" />
+      <use href="#mdi-inverter" transform="translate(24, 34)" fill="#34d399" />
+      <text x="70" y="43" font-family="sans-serif" font-size="14" font-weight="bold" fill="#f8fafc">Inverter</text>
+      <text x="70" y="60" font-family="sans-serif" font-size="11" fill="#94a3b8">Solar &amp; EV</text>
+    </g>
+
+    <!-- 3. Heater -->
+    <g transform="translate(16, 288)">
+      <rect x="0" y="0" width="144" height="92" rx="12" fill="#1e293b" stroke="#3b4963" stroke-width="1.2" />
+      <rect x="14" y="24" width="44" height="44" rx="10" fill="#f97316" fill-opacity="0.15" stroke="#f97316" stroke-opacity="0.4" stroke-width="1" />
+      <use href="#mdi-heater" transform="translate(24, 34)" fill="#fb923c" />
+      <text x="70" y="43" font-family="sans-serif" font-size="14" font-weight="bold" fill="#f8fafc">Heater</text>
+      <text x="70" y="60" font-family="sans-serif" font-size="11" fill="#94a3b8">Climate</text>
+    </g>
+
+    <!-- 4. Button -->
+    <g transform="translate(16, 396)">
+      <rect x="0" y="0" width="144" height="92" rx="12" fill="#1e293b" stroke="#3b4963" stroke-width="1.2" />
+      <rect x="14" y="24" width="44" height="44" rx="10" fill="#38bdf8" fill-opacity="0.15" stroke="#38bdf8" stroke-opacity="0.4" stroke-width="1" />
+      <use href="#mdi-button" transform="translate(24, 34)" fill="#38bdf8" />
+      <text x="70" y="43" font-family="sans-serif" font-size="14" font-weight="bold" fill="#f8fafc">Button</text>
+      <text x="70" y="60" font-family="sans-serif" font-size="11" fill="#94a3b8">Controls</text>
+    </g>
   </g>
 
-  <g aria-label="Integrations">
-    <rect class="panel" x="252" y="235" width="233" height="226" rx="16"/>
-    <text class="heading" x="368" y="272" text-anchor="middle" fill="#73d0a1">Integrations</text>
-    <rect class="item" x="274" y="294" width="189" height="54" rx="10"/>
-    <text class="label" x="368" y="317" text-anchor="middle">Home Assistant</text>
-    <text class="detail" x="368" y="337" text-anchor="middle">integrations</text>
-    <rect class="offdelay" x="274" y="361" width="189" height="70" rx="10"/>
-    <text class="label" x="368" y="389" text-anchor="middle">Offdelay integration</text>
-    <text class="detail" x="368" y="414" text-anchor="middle">supported integrations</text>
+  <!-- ==================== 2. INTEGRATIONS (MIDDLE-TOP — 3 TYPES, GREEN OFFDELAY) ==================== -->
+  <g id="integrations-group" transform="translate(284, 114)">
+    <!-- Outer Panel Box -->
+    <rect x="0" y="0" width="236" height="240" rx="16" fill="#161f30" stroke="#334155" stroke-width="1.5" />
+    <use href="#mdi-puzzle" transform="translate(20, 14) scale(0.85)" fill="#38bdf8" />
+    <text x="48" y="32" font-family="sans-serif" font-size="16" font-weight="bold" fill="#f1f5f9">Integrations</text>
+
+    <!-- 1. Home Assistant Official -->
+    <g transform="translate(16, 46)">
+      <rect x="0" y="0" width="204" height="52" rx="10" fill="#1e293b" stroke="#3b4963" stroke-width="1.2" />
+      <text x="102" y="23" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="bold" fill="#ffffff">Home Assistant Official</text>
+      <text x="102" y="40" text-anchor="middle" font-family="sans-serif" font-size="10.5" fill="#cbd5e1">Built-in integrations</text>
+    </g>
+
+    <!-- 2. Marketplace -->
+    <g transform="translate(16, 108)">
+      <rect x="0" y="0" width="204" height="52" rx="10" fill="#1e293b" stroke="#3b4963" stroke-width="1.2" />
+      <text x="102" y="23" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="bold" fill="#ffffff">Marketplace</text>
+      <text x="102" y="40" text-anchor="middle" font-family="sans-serif" font-size="10.5" fill="#cbd5e1">Community integrations</text>
+    </g>
+
+    <!-- 3. Offdelay supported (Green Box) -->
+    <g transform="translate(16, 170)">
+      <rect x="0" y="0" width="204" height="54" rx="10" fill="#113322" stroke="#4a8f48" stroke-width="1.6" />
+      <text x="102" y="24" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="bold" fill="#ffffff">Offdelay supported</text>
+      <text x="102" y="41" text-anchor="middle" font-family="sans-serif" font-size="10.5" fill="#bbf7d0">Curated &amp; custom integrations</text>
+    </g>
   </g>
 
-  <g aria-label="Dashboard and companion app">
-    <rect class="panel" x="536" y="91" width="278" height="109" rx="16"/>
-    <text class="heading" x="675" y="131" text-anchor="middle">Dashboard / Companion App</text>
-    <text class="detail" x="675" y="163" text-anchor="middle">Browser · iOS · Android</text>
+  <!-- ==================== 3. APPS (MIDDLE-BOTTOM — 3 TYPES, GREEN OFFDELAY) ==================== -->
+  <g id="apps-group" transform="translate(284, 390)">
+    <!-- Outer Panel Box -->
+    <rect x="0" y="0" width="236" height="240" rx="16" fill="#161f30" stroke="#334155" stroke-width="1.5" />
+    <use href="#mdi-cube" transform="translate(20, 14) scale(0.85)" fill="#38bdf8" />
+    <text x="48" y="32" font-family="sans-serif" font-size="16" font-weight="bold" fill="#f1f5f9">Apps</text>
+
+    <!-- 1. Home Assistant Official -->
+    <g transform="translate(16, 46)">
+      <rect x="0" y="0" width="204" height="52" rx="10" fill="#1e293b" stroke="#3b4963" stroke-width="1.2" />
+      <text x="102" y="23" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="bold" fill="#ffffff">Home Assistant Official</text>
+      <text x="102" y="40" text-anchor="middle" font-family="sans-serif" font-size="10.5" fill="#cbd5e1">Official add-ons</text>
+    </g>
+
+    <!-- 2. Marketplace -->
+    <g transform="translate(16, 108)">
+      <rect x="0" y="0" width="204" height="52" rx="10" fill="#1e293b" stroke="#3b4963" stroke-width="1.2" />
+      <text x="102" y="23" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="bold" fill="#ffffff">Marketplace</text>
+      <text x="102" y="40" text-anchor="middle" font-family="sans-serif" font-size="10.5" fill="#cbd5e1">Third-party services</text>
+    </g>
+
+    <!-- 3. Offdelay supported (Green Box) -->
+    <g transform="translate(16, 170)">
+      <rect x="0" y="0" width="204" height="54" rx="10" fill="#113322" stroke="#4a8f48" stroke-width="1.6" />
+      <text x="102" y="24" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="bold" fill="#ffffff">Offdelay supported</text>
+      <text x="102" y="41" text-anchor="middle" font-family="sans-serif" font-size="10.5" fill="#bbf7d0">Managed &amp; pinned apps</text>
+    </g>
   </g>
 
-  <g aria-label="Home Assistant Core">
-    <rect x="536" y="248" width="278" height="212" rx="20" fill="#267c99" stroke="#77d9ee" stroke-width="3"/>
-    <text x="675" y="302" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700" fill="#ffffff">Home Assistant</text>
-    <text x="675" y="340" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="19" fill="#e1f8fc">Core</text>
-    <text x="675" y="375" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#e1f8fc">Devices · Entities · Automations</text>
-    <text x="675" y="410" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#e1f8fc">Dashboards · Services</text>
+  <!-- ==================== 4. DASHBOARD / COMPANION APP (TOP CENTER) ==================== -->
+  <g id="dashboard-group" transform="translate(576, 102)">
+    <rect x="0" y="0" width="248" height="92" rx="16" fill="#161f30" stroke="#334155" stroke-width="1.5" />
+    <rect x="18" y="24" width="44" height="44" rx="12" fill="#38bdf8" fill-opacity="0.14" stroke="#38bdf8" stroke-opacity="0.35" stroke-width="1" />
+    <use href="#mdi-dashboard" transform="translate(28, 34)" fill="#38bdf8" />
+    <text x="74" y="42" font-family="sans-serif" font-size="13.5" font-weight="bold" fill="#ffffff">Dashboard / App</text>
+    <text x="74" y="61" font-family="sans-serif" font-size="10.5" fill="#cbd5e1">Web browser · iOS · Android</text>
   </g>
 
-  <g aria-label="Apps">
-    <rect class="panel" x="861" y="235" width="387" height="226" rx="16"/>
-    <text class="heading" x="1054" y="272" text-anchor="middle" fill="#f0ad57">Apps</text>
-    <rect class="item" x="885" y="294" width="339" height="54" rx="10"/>
-    <text class="label" x="1054" y="317" text-anchor="middle">Home Assistant apps</text>
-    <text class="detail" x="1054" y="337" text-anchor="middle">services and tools running alongside Home Assistant</text>
-    <rect class="offdelay" x="885" y="361" width="339" height="70" rx="10"/>
-    <text class="label" x="1054" y="389" text-anchor="middle">Offdelay app</text>
-    <text class="detail" x="1054" y="414" text-anchor="middle">supported app for the Offdelay setup</text>
+  <!-- ==================== 5. HOME ASSISTANT OS (HERO CENTER) ==================== -->
+  <g id="core-group" transform="translate(576, 240)">
+    <!-- Main Teal/Blue Hero Box -->
+    <rect x="0" y="0" width="248" height="310" rx="18" fill="#0369a1" stroke="#38bdf8" stroke-width="2" />
+
+    <!-- Top Icon Circle -->
+    <circle cx="124" cy="48" r="24" fill="#0284c7" stroke="#7dd3fc" stroke-width="1.2" />
+    <use href="#mdi-home-auto" transform="translate(110, 34) scale(1.16)" fill="#ffffff" />
+
+    <text x="124" y="100" text-anchor="middle" font-family="sans-serif" font-size="24" font-weight="bold" fill="#ffffff">Home Assistant</text>
+
+    <!-- Core Pill Badge -->
+    <rect x="88" y="114" width="72" height="24" rx="12" fill="#0c4a6e" stroke="#38bdf8" stroke-width="1.2" />
+    <text x="124" y="130" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="bold" fill="#38bdf8">OS</text>
+
+    <!-- Sub-concepts -->
+    <text x="124" y="166" text-anchor="middle" font-family="sans-serif" font-size="12.5" font-weight="bold" fill="#e0f2fe">Devices · Entities · Automations</text>
+    <line x1="36" y1="184" x2="212" y2="184" stroke="#7dd3fc" stroke-opacity="0.35" stroke-width="1" />
+
+    <!-- Offdelay Automations Subcard (Green Box) -->
+    <g transform="translate(18, 200)">
+      <rect x="0" y="0" width="212" height="92" rx="12" fill="#113322" stroke="#4a8f48" stroke-width="1.6" />
+      <text x="106" y="30" text-anchor="middle" font-family="sans-serif" font-size="14" font-weight="bold" fill="#ffffff">Offdelay automations</text>
+      <text x="106" y="52" text-anchor="middle" font-family="sans-serif" font-size="10.5" fill="#bbf7d0">Reusable automation patterns</text>
+      <text x="106" y="69" text-anchor="middle" font-family="sans-serif" font-size="10.5" fill="#bbf7d0">built on Home Assistant</text>
+    </g>
   </g>
 
-  <g aria-label="Offdelay blueprints">
-    <rect class="offdelay" x="536" y="542" width="278" height="132" rx="16"/>
-    <text class="heading" x="675" y="584" text-anchor="middle">Offdelay blueprints</text>
-    <text class="detail" x="675" y="617" text-anchor="middle">reusable automation patterns</text>
-    <text class="detail" x="675" y="641" text-anchor="middle">built on Home Assistant</text>
+  <!-- ==================== 6. OUTPUTS (RIGHT COLUMN) ==================== -->
+  <g id="outputs-group" transform="translate(884, 240)">
+    <!-- Outer Panel Box -->
+    <rect x="0" y="0" width="228" height="214" rx="16" fill="#161f30" stroke="#334155" stroke-width="1.5" />
+    <text x="114" y="36" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="bold" fill="#f1f5f9">Outputs</text>
+    <text x="114" y="54" text-anchor="middle" font-family="sans-serif" font-size="11" fill="#94a3b8">Commands &amp; alerts</text>
+
+    <!-- Device Actions -->
+    <g transform="translate(16, 72)">
+      <rect x="0" y="0" width="196" height="54" rx="10" fill="#1e293b" stroke="#3b4963" stroke-width="1.2" />
+      <rect x="12" y="11" width="32" height="32" rx="8" fill="#38bdf8" fill-opacity="0.15" />
+      <use href="#mdi-bolt" transform="translate(18, 17) scale(0.83)" fill="#38bdf8" />
+      <text x="54" y="25" font-family="sans-serif" font-size="13" font-weight="bold" fill="#ffffff">Device actions</text>
+      <text x="54" y="41" font-family="sans-serif" font-size="10.5" fill="#94a3b8">Switch, dim, heat &amp; charge</text>
+    </g>
+
+    <!-- Notifications -->
+    <g transform="translate(16, 138)">
+      <rect x="0" y="0" width="196" height="54" rx="10" fill="#1e293b" stroke="#3b4963" stroke-width="1.2" />
+      <rect x="12" y="11" width="32" height="32" rx="8" fill="#4a8f48" fill-opacity="0.15" />
+      <use href="#mdi-bell" transform="translate(18, 17) scale(0.83)" fill="#4a8f48" />
+      <text x="54" y="25" font-family="sans-serif" font-size="13" font-weight="bold" fill="#ffffff">Notifications</text>
+      <text x="54" y="41" font-family="sans-serif" font-size="10.5" fill="#94a3b8">Mobile push &amp; status alerts</text>
+    </g>
   </g>
+
+  <!-- ==================== 7. CONNECTORS & ARROWS (ALL GREY) ==================== -->
+  <!-- Devices -> Integrations -->
+  <circle cx="224" cy="234" r="4" fill="#94a3b8" />
+  <path d="M 224 234 L 274 234" stroke="#94a3b8" stroke-width="2.4" fill="none" marker-end="url(#arrow-grey)" />
+
+  <!-- Devices -> Apps -->
+  <circle cx="224" cy="510" r="4" fill="#94a3b8" />
+  <path d="M 224 510 L 274 510" stroke="#94a3b8" stroke-width="2.4" fill="none" marker-end="url(#arrow-grey)" />
+
+  <!-- Apps -> Integrations (Vertical bridge) -->
+  <circle cx="402" cy="390" r="4" fill="#94a3b8" />
+  <path d="M 402 390 L 402 364" stroke="#94a3b8" stroke-width="2.4" fill="none" marker-end="url(#arrow-grey)" />
+
+  <!-- Integrations -> Home Assistant Core -->
+  <circle cx="520" cy="280" r="4" fill="#94a3b8" />
+  <path d="M 520 280 L 566 280" stroke="#94a3b8" stroke-width="2.4" fill="none" marker-end="url(#arrow-grey)" />
+
+  <!-- Dashboard / App -> Home Assistant Core -->
+  <circle cx="700" cy="194" r="4" fill="#94a3b8" />
+  <path d="M 700 194 L 700 230" stroke="#94a3b8" stroke-width="2.4" fill="none" marker-end="url(#arrow-grey)" />
+
+  <!-- Home Assistant Core -> Outputs -->
+  <circle cx="824" cy="347" r="4" fill="#94a3b8" />
+  <path d="M 824 347 L 874 347" stroke="#94a3b8" stroke-width="2.4" fill="none" marker-end="url(#arrow-grey)" />
 </svg>
