@@ -1,6 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="520" height="520" viewBox="0 0 520 520" role="img" aria-labelledby="title description">
   <title id="title">Connect using the Home Assistant Companion app</title>
   <desc id="description">A phone displays the Companion app connection screen with a home address, sign-in fields, and a connect button.</desc>
+  <!-- Embedded Pictogrammers Material Design Icons are Apache-2.0; see mdi-icons-LICENSE.txt. -->
   <rect x="1" y="1" width="518" height="518" rx="18" fill="#f8fafc" stroke="#64748b" stroke-width="2"/>
   <text x="28" y="46" fill="#172033" font-family="Arial, sans-serif" font-size="23" font-weight="700">Companion app</text>
   <rect x="150" y="66" width="220" height="428" rx="30" fill="#cbd5e1" stroke="#475569" stroke-width="3"/>
@@ -9,7 +10,7 @@
   <circle cx="260" cy="481" r="7" fill="#64748b"/>
   <rect x="176" y="104" width="168" height="42" rx="8" fill="#dbeafe"/>
   <circle cx="198" cy="125" r="13" fill="#2563eb"/>
-  <path d="M192 125h12M198 119v12" stroke="#ffffff" stroke-width="2"/>
+  <path d="M10,20V14H14V20H19V12H22L12,3L2,12H5V20H10Z" transform="translate(188.4 115.4) scale(0.8)" fill="#ffffff"/>
   <text x="220" y="122" fill="#172033" font-family="Arial, sans-serif" font-size="12" font-weight="700">Home Assistant</text>
   <text x="220" y="137" fill="#475569" font-family="Arial, sans-serif" font-size="10">Companion app</text>
   <text x="182" y="178" fill="#172033" font-family="Arial, sans-serif" font-size="15" font-weight="700">Connect to your home</text>

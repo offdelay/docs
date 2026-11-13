@@ -1,6 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1040" height="420" viewBox="0 0 1040 420" role="img" aria-labelledby="title description">
   <title id="title">Open Home Assistant in a browser</title>
   <desc id="description">Browser windows on macOS and Windows show a Home Assistant address and a simple sign-in form.</desc>
+  <!-- Embedded Pictogrammers Material Design Icons are Apache-2.0; see mdi-icons-LICENSE.txt. -->
   <rect x="1" y="1" width="518" height="418" rx="18" fill="#f8fafc" stroke="#64748b" stroke-width="2"/>
   <text x="34" y="46" fill="#172033" font-family="Arial, sans-serif" font-size="23" font-weight="700">Browser sign-in</text>
 
@@ -14,7 +15,7 @@
   <rect x="54" y="132" width="434" height="236" rx="10" fill="#f8fafc" stroke="#cbd5e1"/>
   <rect x="54" y="132" width="434" height="44" rx="10" fill="#dbeafe"/>
   <circle cx="80" cy="154" r="12" fill="#2563eb"/>
-  <path d="M74 154h12M80 148v12" stroke="#ffffff" stroke-width="2"/>
+  <path d="M10,20V14H14V20H19V12H22L12,3L2,12H5V20H10Z" transform="translate(71 145) scale(0.75)" fill="#ffffff"/>
   <text x="103" y="160" fill="#172033" font-family="Arial, sans-serif" font-size="17" font-weight="700">Home Assistant</text>
   <text x="93" y="208" fill="#172033" font-family="Arial, sans-serif" font-size="16" font-weight="700">Welcome home</text>
   <text x="93" y="232" fill="#475569" font-family="Arial, sans-serif" font-size="12">Sign in with your Home Assistant credentials.</text>

@@ -1,60 +1,61 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="760" height="720" viewBox="0 0 760 720" role="img" aria-labelledby="title description">
   <title id="title">Room controls wireframe</title>
   <desc id="description">A room device view with lighting presets, light brightness controls, and a thermostat.</desc>
+  <!-- Embedded Pictogrammers Material Design Icons are Apache-2.0; see mdi-icons-LICENSE.txt. -->
   <rect x="1" y="1" width="758" height="718" rx="20" fill="#111318" stroke="#42454d" stroke-width="2"/>
   <circle cx="42" cy="42" r="25" fill="#25272d"/>
-  <text x="42" y="50" text-anchor="middle" fill="#e5e7eb" font-family="Arial, sans-serif" font-size="28">‹</text>
+  <path d="M15.41,16.58L10.83,12L15.41,7.41L14,6L8,12L14,18L15.41,16.58Z" transform="translate(30 30)" fill="#e5e7eb"/>
   <rect x="246" y="18" width="144" height="48" rx="24" fill="#25272d"/>
   <text x="318" y="48" text-anchor="middle" fill="#f3f4f6" font-family="Arial, sans-serif" font-size="16" font-weight="700">Living room</text>
   <rect x="400" y="18" width="128" height="48" rx="24" fill="#25272d"/>
   <text x="464" y="48" text-anchor="middle" fill="#f3f4f6" font-family="Arial, sans-serif" font-size="16">21.0 °C</text>
   <circle cx="708" cy="42" r="25" fill="#25272d"/>
-  <text x="708" y="50" text-anchor="middle" fill="#e5e7eb" font-family="Arial, sans-serif" font-size="23">⚙</text>
+  <path d="M12,8A4,4 0 0,1 16,12A4,4 0 0,1 12,16A4,4 0 0,1 8,12A4,4 0 0,1 12,8M12,10A2,2 0 0,0 10,12A2,2 0 0,0 12,14A2,2 0 0,0 14,12A2,2 0 0,0 12,10M10,22C9.75,22 9.54,21.82 9.5,21.58L9.13,18.93C8.5,18.68 7.96,18.34 7.44,17.94L4.95,18.95C4.73,19.03 4.46,18.95 4.34,18.73L2.34,15.27C2.21,15.05 2.27,14.78 2.46,14.63L4.57,12.97L4.5,12L4.57,11L2.46,9.37C2.27,9.22 2.21,8.95 2.34,8.73L4.34,5.27C4.46,5.05 4.73,4.96 4.95,5.05L7.44,6.05C7.96,5.66 8.5,5.32 9.13,5.07L9.5,2.42C9.54,2.18 9.75,2 10,2H14C14.25,2 14.46,2.18 14.5,2.42L14.87,5.07C15.5,5.32 16.04,5.66 16.56,6.05L19.05,5.05C19.27,4.96 19.54,5.05 19.66,5.27L21.66,8.73C21.79,8.95 21.73,9.22 21.54,9.37L19.43,11L19.5,12L19.43,13L21.54,14.63C21.73,14.78 21.79,15.05 21.66,15.27L19.66,18.73C19.54,18.95 19.27,19.04 19.05,18.95L16.56,17.95C16.04,18.34 15.5,18.68 14.87,18.93L14.5,21.58C14.46,21.82 14.25,22 14,22H10M11.25,4L10.88,6.61C9.68,6.86 8.62,7.5 7.85,8.39L5.44,7.35L4.69,8.65L6.8,10.2C6.4,11.37 6.4,12.64 6.8,13.8L4.68,15.36L5.43,16.66L7.86,15.62C8.63,16.5 9.68,17.14 10.87,17.38L11.24,20H12.76L13.13,17.39C14.32,17.14 15.37,16.5 16.14,15.62L18.57,16.66L19.32,15.36L17.2,13.81C17.6,12.64 17.6,11.37 17.2,10.2L19.31,8.65L18.56,7.35L16.15,8.39C15.38,7.5 14.32,6.86 13.12,6.62L12.75,4H11.25Z" transform="translate(696 30)" fill="#e5e7eb"/>
   <text x="34" y="133" fill="#b9bbc2" font-family="Arial, sans-serif" font-size="20">Devices</text>
   <rect x="16" y="156" width="174" height="110" rx="26" fill="#25272d"/>
   <circle cx="103" cy="194" r="25" fill="#383a40"/>
-  <text x="103" y="203" text-anchor="middle" fill="#a5a7ad" font-family="Arial, sans-serif" font-size="24">◉</text>
+  <path d="M12,2A7,7 0 0,1 19,9C19,11.38 17.81,13.47 16,14.74V17A1,1 0 0,1 15,18H9A1,1 0 0,1 8,17V14.74C6.19,13.47 5,11.38 5,9A7,7 0 0,1 12,2M9,21V20H15V21A1,1 0 0,1 14,22H10A1,1 0 0,1 9,21M12,4A5,5 0 0,0 7,9C7,11.05 8.23,12.81 10,13.58V16H14V13.58C15.77,12.81 17,11.05 17,9A5,5 0 0,0 12,4Z" transform="translate(93 184) scale(0.85)" fill="#a5a7ad"/>
   <text x="103" y="244" text-anchor="middle" fill="#f3f4f6" font-family="Arial, sans-serif" font-size="17" font-weight="700">Default</text>
   <rect x="198" y="156" width="174" height="110" rx="26" fill="#25272d"/>
   <circle cx="285" cy="194" r="25" fill="#383a40"/>
-  <text x="285" y="203" text-anchor="middle" fill="#a5a7ad" font-family="Arial, sans-serif" font-size="24">◉</text>
+  <path d="M12,2C9.76,2 7.78,3.05 6.5,4.68L7.93,6.11C8.84,4.84 10.32,4 12,4A5,5 0 0,1 17,9C17,10.68 16.16,12.16 14.89,13.06L16.31,14.5C17.94,13.21 19,11.24 19,9A7,7 0 0,0 12,2M3.28,4L2,5.27L5.04,8.3C5,8.53 5,8.76 5,9C5,11.38 6.19,13.47 8,14.74V17A1,1 0 0,0 9,18H14.73L18.73,22L20,20.72L3.28,4M7.23,10.5L12.73,16H10V13.58C8.68,13 7.66,11.88 7.23,10.5M9,20V21A1,1 0 0,0 10,22H14A1,1 0 0,0 15,21V20H9Z" transform="translate(273 184) scale(0.85)" fill="#a5a7ad"/>
   <text x="285" y="244" text-anchor="middle" fill="#f3f4f6" font-family="Arial, sans-serif" font-size="17" font-weight="700">Off</text>
   <rect x="380" y="156" width="174" height="110" rx="26" fill="#25272d"/>
   <circle cx="467" cy="194" r="25" fill="#383a40"/>
-  <text x="467" y="203" text-anchor="middle" fill="#a5a7ad" font-family="Arial, sans-serif" font-size="24">◉</text>
+  <path d="M12,8A4,4 0 0,0 8,12A4,4 0 0,0 12,16A4,4 0 0,0 16,12A4,4 0 0,0 12,8M12,18A6,6 0 0,1 6,12A6,6 0 0,1 12,6A6,6 0 0,1 18,12A6,6 0 0,1 12,18M20,8.69V4H15.31L12,0.69L8.69,4H4V8.69L0.69,12L4,15.31V20H8.69L12,23.31L15.31,20H20V15.31L23.31,12L20,8.69Z" transform="translate(455 182) scale(0.85)" fill="#a5a7ad"/>
   <text x="467" y="244" text-anchor="middle" fill="#f3f4f6" font-family="Arial, sans-serif" font-size="17" font-weight="700">Bright</text>
   <rect x="562" y="156" width="182" height="110" rx="26" fill="#25272d"/>
   <circle cx="653" cy="194" r="25" fill="#383a40"/>
-  <text x="653" y="203" text-anchor="middle" fill="#a5a7ad" font-family="Arial, sans-serif" font-size="24">◉</text>
+  <path d="M12,18C11.11,18 10.26,17.8 9.5,17.45C11.56,16.5 13,14.42 13,12C13,9.58 11.56,7.5 9.5,6.55C10.26,6.2 11.11,6 12,6A6,6 0 0,1 18,12A6,6 0 0,1 12,18M20,8.69V4H15.31L12,0.69L8.69,4H4V8.69L0.69,12L4,15.31V20H8.69L12,23.31L15.31,20H20V15.31L23.31,12L20,8.69Z" transform="translate(641 182) scale(0.85)" fill="#a5a7ad"/>
   <text x="653" y="244" text-anchor="middle" fill="#f3f4f6" font-family="Arial, sans-serif" font-size="17" font-weight="700">Dim</text>
 
   <rect x="16" y="278" width="728" height="126" rx="26" fill="#25272d"/>
   <circle cx="58" cy="318" r="25" fill="#614630"/>
-  <text x="58" y="327" text-anchor="middle" fill="#ffad5c" font-family="Arial, sans-serif" font-size="26">●</text>
+  <path d="M12,2A7,7 0 0,1 19,9C19,11.38 17.81,13.47 16,14.74V17A1,1 0 0,1 15,18H9A1,1 0 0,1 8,17V14.74C6.19,13.47 5,11.38 5,9A7,7 0 0,1 12,2M9,21V20H15V21A1,1 0 0,1 14,22H10A1,1 0 0,1 9,21M12,4A5,5 0 0,0 7,9C7,11.05 8.23,12.81 10,13.58V16H14V13.58C15.77,12.81 17,11.05 17,9A5,5 0 0,0 12,4Z" transform="translate(46 306) scale(1)" fill="#ffad5c"/>
   <text x="99" y="314" fill="#f3f4f6" font-family="Arial, sans-serif" font-size="18" font-weight="700">Ceiling light</text>
   <text x="99" y="338" fill="#d1d5db" font-family="Arial, sans-serif" font-size="15">80% brightness</text>
   <rect x="32" y="356" width="656" height="32" rx="16" fill="#574439"/>
   <rect x="32" y="356" width="520" height="32" rx="16" fill="#ffad5c"/>
   <circle cx="716" cy="372" r="18" fill="#303238"/>
-  <text x="716" y="379" text-anchor="middle" fill="#e5e7eb" font-family="Arial, sans-serif" font-size="18">♨</text>
+  <path d="M12,8A4,4 0 0,1 16,12A4,4 0 0,1 12,16A4,4 0 0,1 8,12A4,4 0 0,1 12,8M12,10A2,2 0 0,0 10,12A2,2 0 0,0 12,14A2,2 0 0,0 14,12A2,2 0 0,0 12,10M10,22C9.75,22 9.54,21.82 9.5,21.58L9.13,18.93C8.5,18.68 7.96,18.34 7.44,17.94L4.95,18.95C4.73,19.03 4.46,18.95 4.34,18.73L2.34,15.27C2.21,15.05 2.27,14.78 2.46,14.63L4.57,12.97L4.5,12L4.57,11L2.46,9.37C2.27,9.22 2.21,8.95 2.34,8.73L4.34,5.27C4.46,5.05 4.73,4.96 4.95,5.05L7.44,6.05C7.96,5.66 8.5,5.32 9.13,5.07L9.5,2.42C9.54,2.18 9.75,2 10,2H14C14.25,2 14.46,2.18 14.5,2.42L14.87,5.07C15.5,5.32 16.04,5.66 16.56,6.05L19.05,5.05C19.27,4.96 19.54,5.05 19.66,5.27L21.66,8.73C21.79,8.95 21.73,9.22 21.54,9.37L19.43,11L19.5,12L19.43,13L21.54,14.63C21.73,14.78 21.79,15.05 21.66,15.27L19.66,18.73C19.54,18.95 19.27,19.04 19.05,18.95L16.56,17.95C16.04,18.34 15.5,18.68 14.87,18.93L14.5,21.58C14.46,21.82 14.25,22 14,22H10M11.25,4L10.88,6.61C9.68,6.86 8.62,7.5 7.85,8.39L5.44,7.35L4.69,8.65L6.8,10.2C6.4,11.37 6.4,12.64 6.8,13.8L4.68,15.36L5.43,16.66L7.86,15.62C8.63,16.5 9.68,17.14 10.87,17.38L11.24,20H12.76L13.13,17.39C14.32,17.14 15.37,16.5 16.14,15.62L18.57,16.66L19.32,15.36L17.2,13.81C17.6,12.64 17.6,11.37 17.2,10.2L19.31,8.65L18.56,7.35L16.15,8.39C15.38,7.5 14.32,6.86 13.12,6.62L12.75,4H11.25Z" transform="translate(704 360) scale(1)" fill="#e5e7eb"/>
 
   <rect x="16" y="416" width="728" height="126" rx="26" fill="#25272d"/>
   <circle cx="58" cy="456" r="25" fill="#614630"/>
-  <text x="58" y="465" text-anchor="middle" fill="#ffad5c" font-family="Arial, sans-serif" font-size="26">●</text>
+  <path d="M12,2A7,7 0 0,1 19,9C19,11.38 17.81,13.47 16,14.74V17A1,1 0 0,1 15,18H9A1,1 0 0,1 8,17V14.74C6.19,13.47 5,11.38 5,9A7,7 0 0,1 12,2M9,21V20H15V21A1,1 0 0,1 14,22H10A1,1 0 0,1 9,21M12,4A5,5 0 0,0 7,9C7,11.05 8.23,12.81 10,13.58V16H14V13.58C15.77,12.81 17,11.05 17,9A5,5 0 0,0 12,4Z" transform="translate(46 444) scale(1)" fill="#ffad5c"/>
   <text x="99" y="452" fill="#f3f4f6" font-family="Arial, sans-serif" font-size="18" font-weight="700">Kitchen lights</text>
   <text x="99" y="476" fill="#d1d5db" font-family="Arial, sans-serif" font-size="15">80% brightness</text>
   <rect x="32" y="494" width="656" height="32" rx="16" fill="#574439"/>
   <rect x="32" y="494" width="520" height="32" rx="16" fill="#ffad5c"/>
   <circle cx="716" cy="510" r="18" fill="#303238"/>
-  <text x="716" y="517" text-anchor="middle" fill="#e5e7eb" font-family="Arial, sans-serif" font-size="18">♨</text>
+  <path d="M12,8A4,4 0 0,1 16,12A4,4 0 0,1 12,16A4,4 0 0,1 8,12A4,4 0 0,1 12,8M12,10A2,2 0 0,0 10,12A2,2 0 0,0 12,14A2,2 0 0,0 14,12A2,2 0 0,0 12,10M10,22C9.75,22 9.54,21.82 9.5,21.58L9.13,18.93C8.5,18.68 7.96,18.34 7.44,17.94L4.95,18.95C4.73,19.03 4.46,18.95 4.34,18.73L2.34,15.27C2.21,15.05 2.27,14.78 2.46,14.63L4.57,12.97L4.5,12L4.57,11L2.46,9.37C2.27,9.22 2.21,8.95 2.34,8.73L4.34,5.27C4.46,5.05 4.73,4.96 4.95,5.05L7.44,6.05C7.96,5.66 8.5,5.32 9.13,5.07L9.5,2.42C9.54,2.18 9.75,2 10,2H14C14.25,2 14.46,2.18 14.5,2.42L14.87,5.07C15.5,5.32 16.04,5.66 16.56,6.05L19.05,5.05C19.27,4.96 19.54,5.05 19.66,5.27L21.66,8.73C21.79,8.95 21.73,9.22 21.54,9.37L19.43,11L19.5,12L19.43,13L21.54,14.63C21.73,14.78 21.79,15.05 21.66,15.27L19.66,18.73C19.54,18.95 19.27,19.04 19.05,18.95L16.56,17.95C16.04,18.34 15.5,18.68 14.87,18.93L14.5,21.58C14.46,21.82 14.25,22 14,22H10M11.25,4L10.88,6.61C9.68,6.86 8.62,7.5 7.85,8.39L5.44,7.35L4.69,8.65L6.8,10.2C6.4,11.37 6.4,12.64 6.8,13.8L4.68,15.36L5.43,16.66L7.86,15.62C8.63,16.5 9.68,17.14 10.87,17.38L11.24,20H12.76L13.13,17.39C14.32,17.14 15.37,16.5 16.14,15.62L18.57,16.66L19.32,15.36L17.2,13.81C17.6,12.64 17.6,11.37 17.2,10.2L19.31,8.65L18.56,7.35L16.15,8.39C15.38,7.5 14.32,6.86 13.12,6.62L12.75,4H11.25Z" transform="translate(704 498) scale(1)" fill="#e5e7eb"/>
 
   <rect x="16" y="554" width="728" height="148" rx="26" fill="#25272d"/>
   <circle cx="58" cy="594" r="25" fill="#3a3b40"/>
-  <text x="58" y="603" text-anchor="middle" fill="#96989e" font-family="Arial, sans-serif" font-size="24">◌</text>
+  <path d="M16.95,16.95L14.83,14.83C15.55,14.1 16,13.1 16,12C16,11.26 15.79,10.57 15.43,10L17.6,7.81C18.5,9 19,10.43 19,12C19,13.93 18.22,15.68 16.95,16.95M12,5C13.57,5 15,5.5 16.19,6.4L14,8.56C13.43,8.21 12.74,8 12,8A4,4 0 0,0 8,12C8,13.1 8.45,14.1 9.17,14.83L7.05,16.95C5.78,15.68 5,13.93 5,12A7,7 0 0,1 12,5M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12C22,6.47 17.5,2 12,2Z" transform="translate(46 582) scale(1)" fill="#96989e"/>
   <text x="99" y="590" fill="#f3f4f6" font-family="Arial, sans-serif" font-size="18" font-weight="700">Thermostat</text>
   <text x="99" y="614" fill="#d1d5db" font-family="Arial, sans-serif" font-size="15">21 °C · Heat</text>
   <rect x="32" y="638" width="696" height="48" rx="16" fill="#303238"/>
-  <text x="64" y="669" fill="#e5e7eb" font-family="Arial, sans-serif" font-size="20">−</text>
+  <path d="M19,13H5V11H19V13Z" transform="translate(52 650)" fill="#e5e7eb"/>
   <text x="380" y="669" text-anchor="middle" fill="#f3f4f6" font-family="Arial, sans-serif" font-size="17" font-weight="700">21.0 °C</text>
-  <text x="696" y="669" text-anchor="middle" fill="#e5e7eb" font-family="Arial, sans-serif" font-size="20">+</text>
+  <path d="M19,13H13V19H11V13H5V11H11V5H13V11H19V13Z" transform="translate(684 650)" fill="#e5e7eb"/>
 </svg>

@@ -43,4 +43,4 @@ Home Assistant's Overview brings together navigation, dashboard headers, room ca
 
     The cogwheel opens settings for the selected room. Adjust room-specific options here, such as whether the heater is enabled or follows a schedule. These settings apply to the room; available options depend on the devices and configuration in your Home Assistant instance.
 
-    ![Master bedroom settings wireframe showing heater enable and schedule options.](../images/navigation-room-settings.svg)
+    ![Living room settings wireframe showing the heater enabled and its schedule turned on.](../images/navigation-coghweel.svg)

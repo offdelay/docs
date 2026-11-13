@@ -52,6 +52,9 @@ pymdownx.superfences = {}
 pymdownx.tabbed = { alternate_style = true }
 
 [project.theme]
+logo = "images/brand/offdelay-icon.svg"
+favicon = "images/brand/offdelay-icon.svg"
+
 # Feature flags: https://zensical.org/docs/setup/navigation/
 features = [
   "navigation.tabs",          # top-level nav becomes header tabs
