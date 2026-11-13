@@ -10,7 +10,7 @@ This dedicated setup keeps Home Assistant and its apps on one controller. Check 
 
 ## Configure cellphone
 
-Install the Home Assistant Companion app from the App Store or Google Play on your phone. Open it, enter your local or remote Home Assistant URL, and sign in with your Home Assistant credentials. See [Connect to Home Assistant](../get-started/basics.md#connect-to-home-assistant) for the address format.
+Install the Home Assistant Companion app from the App Store or Google Play on your phone. Open it, enter your local or remote Home Assistant URL, and sign in with your Home Assistant credentials. See [Login](../get-started/basics.md#login) for the address format.
 
 ### Enable location access
 

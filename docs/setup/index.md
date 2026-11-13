@@ -2,7 +2,7 @@
 icon: material/tune
 ---
 
-# Setup
+# Customize
 
 Set up a working Home Assistant installation, then add the components and conventions used by Offdelay. Start with the controller and cellphone, add integrations and apps for your devices and services, then continue with naming, visualisation, and automations.
 

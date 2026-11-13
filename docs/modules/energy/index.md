@@ -6,7 +6,21 @@ icon: material/bolt
 
 The Energy module is built entirely with the EVCC add-on and the EVCC integration.
 
-## Devices
+## App Control
+
+Use the EVCC dashboard to control and optimise energy in your home. The Home Assistant Energy dashboard offers a broader overview, including water and gas.
+
+=== "EVCC"
+
+    ![EVCC Energy dashboard with the Energy sidebar item, Mode, Menu, and selector highlighted.](../../images/energy-app-control-evcc.svg)
+
+=== "Home Assistant"
+
+    ![Home Assistant Energy dashboard with the Energy sidebar item, dashboard header, and period selector highlighted.](../../images/energy-app-control-home-assistant.svg)
+
+## Configuration
+
+### Add device
 
 The module supports all device types supported by EVCC:
 
@@ -38,25 +52,9 @@ The module supports all device types supported by EVCC:
 
 </div>
 
-## Integration/apps
+### Add automation
 
 Install the EVCC add-on and connect it to Home Assistant with the EVCC integration.
 
-## Automation
-
 Use the EVCC entities in Home Assistant automations to respond to energy data and device states.
-
-## Visualisation
-
-View your home's energy in either the Home Assistant Energy dashboard or the EVCC dashboard.
-The Home Assistant dashboard also includes water and gas, while the EVCC dashboard gives
-more detail about energy control and optimisation in your home.
-
-=== "Home Assistant"
-
-    ![Home Assistant Energy dashboard with the Energy sidebar item, dashboard header, and period selector highlighted.](../../images/energy-visualisation-home-assistant.svg)
-
-=== "EVCC"
-
-    ![EVCC Energy dashboard with the Energy sidebar item, Mode, Menu, and selector highlighted.](../../images/energy-visualisation-evcc.svg)
 

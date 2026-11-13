@@ -7,7 +7,11 @@ See [README.md](README.md) for setup and contribution instructions.
 
 - Inspect relevant files and follow existing patterns.
 - Keep changes focused; avoid unrelated edits.
-- For documentation authoring, follow applicable guidance in `.agents/skills/`.
+- For documentation tasks, apply the relevant skill in `.agents/skills/`:
+  - `docs-authoring` for writing or editing documentation.
+  - `module-authoring` when creating or editing a module page under `docs/modules/`.
+  - `image-naming` when adding, renaming, or referencing documentation images.
+  - `zensical` when building, serving, or configuring the site.
 
 ## Routing
 

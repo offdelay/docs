@@ -27,15 +27,6 @@ nav = [
       "get-started/offdelay.md",
       "get-started/faq.md",
   ] },
-  { "Setup" = [
-      "setup/index.md",
-      "setup/installation.md",
-      "setup/integrations.md",
-      "setup/apps.md",
-      "setup/naming-convention.md",
-      "setup/visualisation.md",
-      "setup/automations.md",
-  ] },
   { "Modules" = [
       "modules/index.md",
       { "Energy"   = ["modules/energy/index.md"] },
@@ -43,6 +34,15 @@ nav = [
       { "Heating and cooling" = ["modules/heating-cooling/index.md"] },
       { "Screens" = ["modules/screens/index.md"] },
       { "Alarm systems" = ["modules/alarm-systems/index.md"] },
+  ] },
+  { "Customize" = [
+      "setup/index.md",
+      "setup/installation.md",
+      "setup/integrations.md",
+      "setup/apps.md",
+      "setup/naming-convention.md",
+      "setup/visualisation.md",
+      "setup/automations.md",
   ] },
 ]
 
@@ -56,8 +56,8 @@ pymdownx.details = {}
 pymdownx.tabbed = { alternate_style = true }
 
 [project.theme]
-logo = "images/brand/offdelay-icon.svg"
-favicon = "images/brand/offdelay-icon.svg"
+logo = "images/brand-offdelay-icon.svg"
+favicon = "images/brand-offdelay-icon.svg"
 
 # Feature flags: https://zensical.org/docs/setup/navigation/
 features = [
