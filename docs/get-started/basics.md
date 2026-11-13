@@ -24,7 +24,6 @@ Home Assistant's Overview brings together navigation, dashboard headers, room ca
 
 ![Home Assistant Overview wireframe showing the sidebar, dashboard headers, room cards, and shortcuts.](../images/navigation-overview.svg)
 
-
 === "Settings"
 
     **Devices & services** shows your integrations, devices, entities, and helpers. Open an integration to inspect its entities. If an integration needs attention, use its available controls to reauthenticate or reload it.

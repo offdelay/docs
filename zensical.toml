@@ -21,12 +21,11 @@ edit_uri = "edit/main/docs/"
 
 # Top-level navigation — rendered as header tabs (see navigation.tabs below).
 nav = [
-  { "Home"        = "index.md" },
   { "Get started" = [
       "get-started/index.md",
-      "get-started/offdelay.md",
       "get-started/basics.md",
-      "get-started/official-documentation.md",
+      "get-started/offdelay.md",
+      "get-started/faq.md",
   ] },
   { "Setup" = [
       "setup/index.md",
@@ -48,7 +47,11 @@ nav = [
 ]
 
 [project.markdown_extensions]
-pymdownx.superfences = {}
+admonition = {}
+pymdownx.superfences.custom_fences = [
+  { name = "mermaid", class = "mermaid", format = "pymdownx.superfences.fence_code_format" },
+]
+pymdownx.details = {}
 pymdownx.tabbed = { alternate_style = true }
 
 [project.theme]
