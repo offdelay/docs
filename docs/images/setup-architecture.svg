@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 760" role="img" aria-labelledby="title description">
+  <title id="title">Home Assistant and Offdelay architecture</title>
+  <desc id="description">Lamp, inverter, and heater devices connect through Home Assistant and Offdelay integrations to Home Assistant Core. A dashboard, Home Assistant apps including the Offdelay app, and Offdelay blueprints extend the system.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0 0 10 5 0 10z" fill="#8492a8"/>
+    </marker>
+    <style>
+      text { font-family: Arial, Helvetica, sans-serif; fill: #f3f5f8; }
+      .title { font-size: 30px; font-weight: 700; }
+      .heading { font-size: 21px; font-weight: 700; }
+      .label { font-size: 16px; font-weight: 600; }
+      .detail { font-size: 14px; fill: #c1ccdc; }
+      .panel { fill: #171d2b; stroke: #39465b; stroke-width: 2; }
+      .item { fill: #222c3e; stroke: #3a4960; stroke-width: 1.5; }
+      .offdelay { fill: #30244a; stroke: #9a72f5; stroke-width: 2; }
+      .flow { fill: none; stroke: #8492a8; stroke-width: 3; marker-end: url(#arrow); }
+    </style>
+  </defs>
+
+  <rect width="1280" height="760" rx="22" fill="#111318"/>
+  <text class="title" x="48" y="58">Home Assistant architecture</text>
+
+  <g aria-label="Connections">
+    <path class="flow" d="M205 348H252"/>
+    <path class="flow" d="M485 348H536"/>
+    <path class="flow" d="M675 200V248"/>
+    <path class="flow" d="M814 348H861"/>
+    <path class="flow" d="M675 460V542"/>
+  </g>
+
+  <g aria-label="Devices">
+    <rect class="panel" x="32" y="235" width="174" height="226" rx="16"/>
+    <text class="heading" x="119" y="272" text-anchor="middle" fill="#b9c7d9">Devices</text>
+    <rect class="item" x="51" y="292" width="136" height="43" rx="9"/>
+    <circle cx="70" cy="313" r="7" fill="#f3c969"/>
+    <text class="label" x="88" y="319">Lamp</text>
+    <rect class="item" x="51" y="345" width="136" height="43" rx="9"/>
+    <circle cx="70" cy="366" r="7" fill="#65c7b1"/>
+    <text class="label" x="88" y="372">Inverter</text>
+    <rect class="item" x="51" y="398" width="136" height="43" rx="9"/>
+    <circle cx="70" cy="419" r="7" fill="#f09567"/>
+    <text class="label" x="88" y="425">Heater</text>
+  </g>
+
+  <g aria-label="Integrations">
+    <rect class="panel" x="252" y="235" width="233" height="226" rx="16"/>
+    <text class="heading" x="368" y="272" text-anchor="middle" fill="#73d0a1">Integrations</text>
+    <rect class="item" x="274" y="294" width="189" height="54" rx="10"/>
+    <text class="label" x="368" y="317" text-anchor="middle">Home Assistant</text>
+    <text class="detail" x="368" y="337" text-anchor="middle">integrations</text>
+    <rect class="offdelay" x="274" y="361" width="189" height="70" rx="10"/>
+    <text class="label" x="368" y="389" text-anchor="middle">Offdelay integration</text>
+    <text class="detail" x="368" y="414" text-anchor="middle">supported integrations</text>
+  </g>
+
+  <g aria-label="Dashboard and companion app">
+    <rect class="panel" x="536" y="91" width="278" height="109" rx="16"/>
+    <text class="heading" x="675" y="131" text-anchor="middle">Dashboard / Companion App</text>
+    <text class="detail" x="675" y="163" text-anchor="middle">Browser · iOS · Android</text>
+  </g>
+
+  <g aria-label="Home Assistant Core">
+    <rect x="536" y="248" width="278" height="212" rx="20" fill="#267c99" stroke="#77d9ee" stroke-width="3"/>
+    <text x="675" y="302" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700" fill="#ffffff">Home Assistant</text>
+    <text x="675" y="340" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="19" fill="#e1f8fc">Core</text>
+    <text x="675" y="375" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#e1f8fc">Devices · Entities · Automations</text>
+    <text x="675" y="410" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="15" fill="#e1f8fc">Dashboards · Services</text>
+  </g>
+
+  <g aria-label="Apps">
+    <rect class="panel" x="861" y="235" width="387" height="226" rx="16"/>
+    <text class="heading" x="1054" y="272" text-anchor="middle" fill="#f0ad57">Apps</text>
+    <rect class="item" x="885" y="294" width="339" height="54" rx="10"/>
+    <text class="label" x="1054" y="317" text-anchor="middle">Home Assistant apps</text>
+    <text class="detail" x="1054" y="337" text-anchor="middle">services and tools running alongside Home Assistant</text>
+    <rect class="offdelay" x="885" y="361" width="339" height="70" rx="10"/>
+    <text class="label" x="1054" y="389" text-anchor="middle">Offdelay app</text>
+    <text class="detail" x="1054" y="414" text-anchor="middle">supported app for the Offdelay setup</text>
+  </g>
+
+  <g aria-label="Offdelay blueprints">
+    <rect class="offdelay" x="536" y="542" width="278" height="132" rx="16"/>
+    <text class="heading" x="675" y="584" text-anchor="middle">Offdelay blueprints</text>
+    <text class="detail" x="675" y="617" text-anchor="middle">reusable automation patterns</text>
+    <text class="detail" x="675" y="641" text-anchor="middle">built on Home Assistant</text>
+  </g>
+</svg>

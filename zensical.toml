@@ -29,7 +29,7 @@ nav = [
   ] },
   { "Setup" = [
       "setup/index.md",
-      "setup/home-assistant-installation.md",
+      "setup/installation.md",
       "setup/integrations.md",
       "setup/apps.md",
       "setup/naming-convention.md",

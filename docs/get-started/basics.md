@@ -1,6 +1,6 @@
 # Basics
 
-Use either a browser or the Home Assistant Companion app to connect to your Home Assistant instance. Once signed in, use the sidebar to open dashboards, maps, energy information, integrations such as Zigbee2MQTT, and settings.
+Use either a browser or the Home Assistant Companion app to connect to your Home Assistant instance.
 
 ## Connect to Home Assistant
 
@@ -8,13 +8,17 @@ Connect locally at `homeassistant.local` or remotely at `<subdomain>.offdelay.be
 
 === "App"
 
-    Install the Home Assistant Companion app on your iOS or Android device. Add your local or external address in the app, then sign in with your Home Assistant credentials. This wireframe shows the address and sign-in steps in the app.
+    1. Install and open the Home Assistant Companion app on your iOS or Android device.
+    2. Add your local or external Home Assistant address.
+    3. Sign in with your Home Assistant credentials.
 
     ![Wireframe showing the Home Assistant Companion app on a phone with address and sign-in steps.](../images/connect-app.svg)
 
 === "Browser"
 
-    Open a browser on your computer and enter either the local or external address above. This example shows a browser window on macOS and Windows; the same address works in other supported browsers.
+    1. Open a browser on your computer.
+    2. Enter your local or external Home Assistant address.
+    3. Sign in with your Home Assistant credentials.
 
     ![Wireframe showing Home Assistant opened in browser windows on macOS and Windows.](../images/connect-browser.svg)
 
