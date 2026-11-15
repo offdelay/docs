@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="100 70 700 700" width="400" height="400">
+  <defs>
+    <!-- Soft Shading Gradients for the Niko Switch Frame & Rockers -->
+    <linearGradient id="frame-grad" x1="0" y1="80" x2="0" y2="760" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f7f7f5" />
+      <stop offset="0.88" stop-color="#ecece8" />
+      <stop offset="1" stop-color="#deded9" />
+    </linearGradient>
+
+    <linearGradient id="rocker-grad" x1="0" y1="200" x2="0" y2="640" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f5f5f3" />
+      <stop offset="0.5" stop-color="#efefef" />
+      <stop offset="1" stop-color="#e7e7e4" />
+    </linearGradient>
+  </defs>
+
+  <!-- ==================== 1. NIKO OUTER FACEPLATE (COMPACT WHITE BORDER) ==================== -->
+  <g id="niko-faceplate">
+    <!-- Subtle Bottom Drop Shadow -->
+    <path d="M 165 110 C 330 96, 570 96, 735 110 C 765 113, 780 128, 784 158 C 798 320, 798 520, 784 682 C 780 712, 765 727, 735 730 C 570 744, 330 744, 165 730 C 135 727, 120 712, 116 682 C 102 520, 102 320, 116 158 C 120 128, 135 113, 165 110 Z" fill="#000000" fill-opacity="0.14" transform="translate(0, 8)" />
+
+    <!-- Slightly Curved Niko Pure/Original Outer Frame -->
+    <path d="M 165 110 C 330 96, 570 96, 735 110 C 765 113, 780 128, 784 158 C 798 320, 798 520, 784 682 C 780 712, 765 727, 735 730 C 570 744, 330 744, 165 730 C 135 727, 120 712, 116 682 C 102 520, 102 320, 116 158 C 120 128, 135 113, 165 110 Z" fill="url(#frame-grad)" stroke="#d6d6d0" stroke-width="2.5" />
+
+    <!-- Subtle Niko Bottom-Left Embossed Logo -->
+    <text x="150" y="706" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#e2e2dc" letter-spacing="1">niko</text>
+  </g>
+
+  <!-- ==================== 2. INNER RECESS & DARK GAP ==================== -->
+  <g id="inner-bezel">
+    <!-- Outer Bevel Recess -->
+    <rect x="212" y="182" width="476" height="476" rx="18" ry="18" fill="#dfdfd9" stroke="#e8e8e3" stroke-width="2" />
+
+    <!-- Bottom Shadow Under Switch Rockers -->
+    <rect x="228" y="204" width="444" height="444" rx="12" ry="12" fill="#000000" fill-opacity="0.18" />
+
+    <!-- Dark Mounting Gap -->
+    <rect x="224" y="194" width="452" height="452" rx="10" ry="10" fill="#232323" />
+  </g>
+
+  <!-- ==================== 3. LEFT & RIGHT ROCKER PADDLES ==================== -->
+  <g id="switch-rockers">
+    <!-- Left Rocker Paddle -->
+    <rect x="230" y="200" width="217" height="440" rx="6" ry="6" fill="url(#rocker-grad)" stroke="#d0d0cb" stroke-width="1.5" />
+    <!-- Left Rocker Center Tactile Ridge -->
+    <line x1="244" y1="418" x2="433" y2="418" stroke="#d4d4cf" stroke-width="3.5" stroke-linecap="round" />
+    <line x1="244" y1="421" x2="433" y2="421" stroke="#ffffff" stroke-width="2" stroke-linecap="round" />
+
+    <!-- Center Vertical Split Between Rockers -->
+    <line x1="450" y1="198" x2="450" y2="642" stroke="#3a3a3a" stroke-width="4" />
+
+    <!-- Right Rocker Paddle -->
+    <rect x="453" y="200" width="217" height="440" rx="6" ry="6" fill="url(#rocker-grad)" stroke="#d0d0cb" stroke-width="1.5" />
+    <!-- Right Rocker Center Tactile Ridge -->
+    <line x1="467" y1="418" x2="656" y2="418" stroke="#d4d4cf" stroke-width="3.5" stroke-linecap="round" />
+    <line x1="467" y1="421" x2="656" y2="421" stroke="#ffffff" stroke-width="2" stroke-linecap="round" />
+  </g>
+
+  <!-- ==================== 4. GREEN CALLOUT BADGES (NO INNER BORDER) ==================== -->
+  <!-- Button 1: Top-Left — Default Scene (Dim up) -->
+  <g id="button-top-left">
+    <rect x="245" y="264" width="187" height="88" rx="10" ry="10" fill="#188050" />
+    <text x="338.5" y="301" text-anchor="middle" font-family="Arial, sans-serif" font-size="26" font-weight="bold" fill="#ffffff">Default Scene</text>
+    <text x="338.5" y="333" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#e2f8ec">(Dim up)</text>
+  </g>
+
+  <!-- Button 2: Top-Right — Bright Scene (Dim up) -->
+  <g id="button-top-right">
+    <rect x="468" y="264" width="187" height="88" rx="10" ry="10" fill="#188050" />
+    <text x="561.5" y="301" text-anchor="middle" font-family="Arial, sans-serif" font-size="26" font-weight="bold" fill="#ffffff">Bright Scene</text>
+    <text x="561.5" y="333" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#e2f8ec">(Dim up)</text>
+  </g>
+
+  <!-- Button 3: Bottom-Left — OFF (Dim down) -->
+  <g id="button-bottom-left">
+    <rect x="245" y="488" width="187" height="88" rx="10" ry="10" fill="#188050" />
+    <text x="338.5" y="525" text-anchor="middle" font-family="Arial, sans-serif" font-size="26" font-weight="bold" fill="#ffffff">OFF</text>
+    <text x="338.5" y="557" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#e2f8ec">(Dim down)</text>
+  </g>
+
+  <!-- Button 4: Bottom-Right — Dim Scene (Dim down) -->
+  <g id="button-bottom-right">
+    <rect x="468" y="488" width="187" height="88" rx="10" ry="10" fill="#188050" />
+    <text x="561.5" y="525" text-anchor="middle" font-family="Arial, sans-serif" font-size="26" font-weight="bold" fill="#ffffff">Dim Scene</text>
+    <text x="561.5" y="557" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#e2f8ec">(Dim down)</text>
+  </g>
+</svg>
